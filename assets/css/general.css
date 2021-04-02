@@ -8,8 +8,8 @@
 
 section#at_skills {
     font-family: 'latoregular';
-   }
-
+    height: 718px;
+}
 .at_skills_conteiner, .at_skills_footer {
     max-width: 1170px;
     left: 0;
@@ -17,13 +17,15 @@ section#at_skills {
     margin: auto;
 }   
 
-
+.at_skills_footer {
+    height: 200px;
+}
 
 /*Section at_About_us */
 
 section#at_about_us {
     font-family: 'latoregular';
-   
+    height: 677px;
 }
 
 .at_about_us_conteiner {
@@ -31,10 +33,14 @@ section#at_about_us {
     left: 0;
     right: 0;
     margin: auto;
-   /* background-color: #C1721D;*/
+    background-color: #C1721D;
 }   
 
-    /*Stanislav*/
+.at_about_us_footer {
+    height: 263px;
+}
+
+/*Stanislav*/
 
 .st_shell {
     max-width: 1170px;
@@ -53,7 +59,7 @@ section#at_about_us {
 .zh_shell {
     max-width: 1170px;
     margin: 0 auto;
-  /*background: #74D367;*/
+/*    background: #74D367;*/
 }
 
 .zh_clear:after {
@@ -67,7 +73,7 @@ section#at_about_us {
     margin: 0 !important;
 }
 
-    /*Colors*/
+/*Colors*/
 
 .zh_h2_text_color {
     color: #3d506f;
@@ -85,7 +91,7 @@ section#at_about_us {
     background-color: #3d506f;
 }
 
-    /*Ali Said*/
+   /*Ali Said*/
 
 section#sa_blog {
     font-family: 'latoregular';
@@ -99,7 +105,7 @@ section#sa_blog {
     margin: auto;
 }   
 
-    /*Ali Osman*/
+ /*Ali Osman*/
 
 section#os_clients 
 {
