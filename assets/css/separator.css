@@ -1,6 +1,6 @@
 /*Blue Separator*/
 
-h3 {
+h3.st_services_circle {
     text-align: center;
     margin: 0 auto;
     max-width: 247px;
@@ -46,7 +46,7 @@ h3:after {
 }
 
 /*White Separator*/
-h4 {
+.st_showcase-inner > h1 + h4 {
     text-align: center;
     margin: 0 auto;
     max-width: 247px;

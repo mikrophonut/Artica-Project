@@ -8,8 +8,8 @@
 
 section#at_skills {
     font-family: 'latoregular';
-    height: 718px;
-}
+   }
+
 .at_skills_conteiner, .at_skills_footer {
     max-width: 1170px;
     left: 0;
@@ -17,15 +17,13 @@ section#at_skills {
     margin: auto;
 }   
 
-.at_skills_footer {
-    height: 200px;
-}
+
 
 /*Section at_About_us */
 
 section#at_about_us {
     font-family: 'latoregular';
-    height: 677px;
+   
 }
 
 .at_about_us_conteiner {
@@ -33,12 +31,8 @@ section#at_about_us {
     left: 0;
     right: 0;
     margin: auto;
-    background-color: #C1721D;
+   /* background-color: #C1721D;*/
 }   
-
-.at_about_us_footer {
-    height: 263px;
-}
 
 /*Stanislav*/
 

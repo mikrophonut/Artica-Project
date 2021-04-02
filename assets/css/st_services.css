@@ -6,7 +6,7 @@
 	text-align: center;
 }
 
-h2 {
+.col-lg-12 > h2 {
 padding-top: 38px;
 font-size: 30px;
 color: #3d506f;

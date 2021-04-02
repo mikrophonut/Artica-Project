@@ -1,5 +1,5 @@
 
- /*--------------------------
+  /*--------------------------
     1.ABOUT US - Main / Title/ text
     2.ABOUT US - Separator
     3.ABOUT US - Main / Pics elements
@@ -14,6 +14,10 @@
 
 .colsec_abus {
     background-color: #151f31;
+}
+
+.pink {
+    background-color: #F646DF;
 }
 
     /*colours TEXT About_Us*/
@@ -102,7 +106,6 @@
     display: inline-block;
 }
 
-
 .at_about_us_main ~ p {
     text-align: center;
     font-size: 15px;
@@ -110,65 +113,86 @@
     margin-top: 69px;
 }
 
-
     /* Main / Pics elements*/
 
 .at_about_us_team {
     max-width: 1170px;
     width: 100%;
-    height: 677px;
+   
+}
+
+.at_about_us_team > .row {
     margin-top: 85px;
 }
+
 div[class^="at_photo_pic"] {
     width: 216px;
     height: 216px;
     border: 1px solid #fff;
     border-radius: 108px;
     background-color: #161f32;
-    margin-left: 15px;
-    
-}
-
-div.at_photo_pic4 {
-    margin-right: 0;
 }
 
 .at_photo_pic1 {
-    background: url("../img/team/john_doe.svg")no-repeat;
-    background-size: cover; 
+    background: url("../img/team/john_doe.svg")no-repeat, no-repeat;
+    background-size: cover;
+    margin-left: 35px; 
 }
 .at_photo_pic2 {
-    background: url("../img/team/lorem_ipsum.svg")no-repeat;
+    background: url("../img/team/lorem_ipsum.svg")no-repeat, no-repeat;
     background-size: cover;
+     margin-left: 24px; 
 }
 
 .at_photo_pic3 {
-    background: url("../img/team/lorem_doe.svg")no-repeat;
+    background: url("../img/team/lorem_doe.svg")no-repeat, no-repeat;
     background-size: cover;
+    margin-left: 27px;
 }
+
 .at_photo_pic4 {
-    background: url("../img/team/john_ipsum.svg")no-repeat;
+    background: url("../img/team/john_ipsum.svg")no-repeat, no-repeat;
     background-size: cover;
+    margin-right: 0;
+    margin-left: 41px;
 }
+
+div[class^="at_pic"] {
+    margin-top: 16px;
+    margin-bottom: 65px;
+    width: 200px;
+} 
 
 div[class^="at_pic"] > h3 {
     font-size: 20px;
     font-weight: 700;
-    text-align: justify;
-    margin-top: 10px;
-    margin-left: 23px;
+    margin-top: 23px;
+    text-align: right;
 }
 
 div[class^="at_pic"] > p {
     font-size: 15px;
     font-weight: 300;
-    text-align: justify;
+    text-align: right;
     margin-top: 10px;
-    margin-left: 3px;
-}
+   }
 
-div[class^="at_pic"] {
-    margin-left: 45px;
-    margin-top: 16px;
-}    
-    
+
+.at_hidden1 {
+    width: 1170px;
+    height: 263px;
+    position: relative;
+    background-color: #9F8A13;
+
+}  
+
+.at_hidden1 > h4 {
+    font-size: 20px;
+    font-weight: 700;
+} 
+
+.at_hidden1 > p {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+} 
