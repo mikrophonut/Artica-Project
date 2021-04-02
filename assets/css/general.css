@@ -53,7 +53,7 @@ section#at_about_us {
 .zh_shell {
     max-width: 1170px;
     margin: 0 auto;
-/*    background: #74D367;*/
+    background: #D09A91;
 }
 
 .zh_clear:after {
@@ -65,6 +65,10 @@ section#at_about_us {
 .nopadding {
     padding: 0 !important;
     margin: 0 !important;
+}
+
+.nopadding_col {
+    padding-left: 0px !important;
 }
 
 /*Colors*/

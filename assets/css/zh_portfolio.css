@@ -14,8 +14,6 @@ Content:
 */
 
 
-
-
 .zh_portfolio {
     font-family: 'latoregular';
 }
@@ -47,7 +45,52 @@ Content:
     font-size: 15px;
     font-weight: 400px;
     margin-bottom: 65px;
+    margin-top: 67px;
 }
+
+/*Portfolio-Separator*/
+
+/*.zh_separator {
+    text-align: center;
+    position: relative;
+}
+
+.zh_lines {
+    margin-top: 5px;
+    position: relative;
+    display: inline;
+}
+
+.zh_lines:after, .zh_lines:before {
+    content: '';
+    width: 274px;
+    height: 1px;
+    background-color: #7f8fa5;
+    position: absolute; 
+}
+
+.zh_lines:after {
+    left: 15px;
+}
+
+.zh_lines:before {
+    right: 15px;
+}
+
+.zh_circle {
+    height: 16px;
+    width: 16px;
+    border: 1px solid #7f8fa5;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 8px;
+    position: absolute;
+    display: inline-block;
+}*/
+
 
 /* Portfolio-Menu*/
 
@@ -101,7 +144,20 @@ Content:
 .zh_item {
     width: 270px;
     height: 200px;
-    background-color: #546278;
+    background-color: #151f31;
+    text-align: center;
+}
+
+.zh_item p{
+    display: none;
+}
+
+.zh_item:hover p{
+    color: #fff;
+    display: inline-block;
+    margin-top: 77px;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 
@@ -110,6 +166,11 @@ Content:
     width: 100%;
     height: 100%;
 }
+
+.zh_item:hover img {
+    display: none;
+}
+
 
 @media only screen and (min-width: 1025px) {
     .zh_frames .col-lg-3{
@@ -187,26 +248,28 @@ Content:
     margin-top: 10px;
 }
 
-
-.zh_expand_info input {
+.zh_view_button {
     height: 51px;
-    width: 172px;
-    background-color: #151f31;
-    border: 1px solid #fff;
-    box-shadow: 0px 1px 0 1px #fff;
+    width: 171px;
+    font-weight: 400;
+    font-size: 15px; 
+    color: #fff;
+    text-align: center;
+    padding: 20px 0 20px 0;
     margin-top: 23px;
-}
-
-.zh_expand_info input:hover {
-    height: 51px;
-    width: 172px;
-    background-color: #00c7fb;
+    margin-bottom: 50px;
     border: 1px solid #fff;
+}
+
+.zh_view_button:hover {
+    cursor: pointer;
+    background-color: #00c7fb;
 
 }
 
-.zh_expand_info input:focus {
-    outline: none;
+.zh_view_button a {
+    text-decoration: none;
+    color: #fff;
 }
 
 /*Expand-img*/
@@ -272,8 +335,6 @@ Content:
 }
 
 .zh_purchase_button:hover {
-    height: 51px;
-    width: 172px;
     cursor: pointer;
     background-color: #00c7fb;
 
