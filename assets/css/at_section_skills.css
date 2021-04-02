@@ -1,0 +1,285 @@
+   /*--------------------------
+   1.Skills  - Title/text
+   2.Skills - Main / Company / element
+   3.Skills - Main / Our skills / element
+   4.Skills - / Foother line / element
+   ---------------------------*/
+
+    /*background colous at_Skills*/
+
+.col_bacmain {
+    background-color: #fbfbfb;
+}
+
+.bac_sec {
+    background-color: #222c3f;
+}
+
+.bac_main_el {
+    background-color: #3d4f6f;
+}
+
+    /*colours TEXT at_Skills*/
+
+.titles_col {
+    color: #3d506f;
+}
+
+.text_col {
+    color: #7f90a5;
+}
+
+.elem_tittext_col {
+    color: #fff;
+}
+
+ /*Skills structure - Title/text*/
+
+div.at_skills_title > h2, p {
+    text-align: center;
+} 
+
+div.at_skills_title > h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 64px;
+} 
+
+div.at_skills_title > h2 + p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 19px;
+} 
+
+/*Skills - Main / Company / element*/   
+
+.at_company > h3 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 66px;
+}
+
+.at_company > p {
+     font-size: 15px;
+    text-align: left;
+    margin-top: 18px;
+}
+
+.at_company > a  span {
+    width: 171px;
+    height: 51px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 18px;
+    margin-top: 21px;
+}
+
+.at_company > a  span:hover {
+    background-color: #00c7fb;
+}
+
+/*Skills - Main / Our skills / element*/
+ 
+div.col-lg-6:last-chaild {
+    float: right;
+}
+
+.at_our_skills > h3 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 64px;
+    margin-bottom: 22px;
+    margin-left: 6px;
+}
+
+.at_our_skills > a div {
+    height: 43px;
+    margin-bottom: 7px;
+    padding-left: 15px; 
+    padding-top: 12px;
+}
+
+.at_our_skills > a {
+    text-decoration: none;
+}
+
+.at_our_skills > a div:hover {
+    background-color: #00c7fb;
+}
+
+.at_our_skills > h3 + a div {
+    width: 508px;
+}
+
+.at_our_skills > a.at_Java div  {
+    width: 466px;
+     padding-left: 18px;
+}
+
+.at_our_skills > a.at_Graphic div  {
+    width: 523px;
+    padding-top: 10px;
+}
+
+.at_our_skills > a:last-child div {
+    width: 497px;
+    margin-bottom: 68px;
+    padding-left: 17px;
+}
+
+   /*Skills - / Foother line / element*/
+    
+.at_skills_footer > ul {
+    float: right;
+}
+
+.at_skills_footer > ul > li {
+    text-decoration: none;
+    display: table;  
+    float: left;
+}
+
+.at_skills_footer > ul > li > span {
+    display: table-cell;
+    position: relative;
+    bottom: 71px;
+    left: 7px;
+}
+
+
+div.followers, .projects, .awards, .customers {
+    margin-left: 0;
+    font-weight: 400;
+}
+
+
+div.customers {
+    background-image: url('../img/skills/customers.png');
+    width: 77px;
+    height: 74px;
+    margin-top: 63px;
+    margin-right: 222px;
+}
+
+div.customers > span > h2 {
+    font-size: 40px;
+    margin-bottom: 4px;
+    padding-left: 4px;
+}
+
+div.customers > span > p {
+    font-size: 15px;
+    margin-right: 2px;
+    padding-left: 6px; 
+}
+
+div.customers > span {
+    position: relative;
+    left: 80px;
+}   
+
+div.awards {
+    background-image: url('../img/skills/awards.png');
+    width: 77px;
+    height: 68px;
+    margin-top: 66px;
+    margin-right: 224px;
+    text-align: center;
+}
+
+.awards > span > h2 {
+    font-size: 40px;
+    margin-bottom: 1px;
+    margin-right: 22px;
+}
+
+div.awards > span > p {
+    font-size: 15px;
+    margin-top: 4px;
+    margin-right: 9px;    
+}
+
+div.awards > span {
+    position: relative;
+    left: 80px;
+}   
+
+div.projects {
+    background-image: url('../img/skills/projects.png');
+    width: 57px;
+    height: 71px;
+    margin-top: 58px;
+    margin-right: 245px;
+}
+
+div.projects > span > h2 {
+    font-size: 40px;
+    margin-right: 12px;
+}
+
+div.projects > span > p {
+    font-size: 16px;
+    margin-right: 11px;
+    margin-top: 2px;
+
+}
+
+div.projects > span {
+    position: relative;
+    left: 68px;
+    top: 6px;
+}   
+
+div.followers {
+    background-image: url('../img/skills/followers.png');
+    width: 69px;
+    height: 56px;
+    margin-top: 72px;
+    margin-right: 197px;
+}
+
+div.followers > span {
+    position: relative;
+    left: 86px;
+    bottom: 6px;
+}   
+
+div.followers > span > h2 {
+    font-size: 40px;
+
+}
+
+div.followers > span > p {
+    font-size: 15px;
+    margin-top: 2px;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

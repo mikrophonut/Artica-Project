@@ -1,0 +1,137 @@
+/*
+1.Title, paragpraph
+2.Separator
+3.Buttons
+*/
+
+/*Background color sa_blog*/
+.title_buttons_back_color {
+    background-color: #3d506f;
+}
+
+.img_back_color {
+    background-color: #161f32;
+}
+
+/*Color*/
+.title_color {
+    color: #3d506f;
+}
+
+.sub_title_parag_color {
+    color: #7f90a5;
+}
+
+.img_but_tx_color {
+    color: #fff;
+}
+
+/*Title and paragraph*/
+div.sa_title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div.sa_title > h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 67px;
+    /*margin-bottom: 24px;*/
+}
+
+div.sa_title > h2 + h3 {
+    font-size: 20px;
+    margin-top: 24px;
+}
+
+div.sa_title > p {
+    margin-top: 65px;
+    text-transform: none;
+    font-size: 15px;
+    text-align: center; 
+}
+
+/*Separator*/
+.sa_separator {
+    text-align: center;
+    position: relative;
+    left: -1px;
+    top: 23px;
+}
+
+.sa_lines {
+    margin-top: 24px;
+    position: relative;
+    display: inline;
+}
+
+.sa_lines:after, .sa_lines:before {
+    content: '';
+    width: 274px;
+    height: 1px;
+    background-color: #7f8fa5;
+    position: absolute; 
+}
+
+.sa_lines:after {
+    left: 15px;
+}
+
+.sa_lines:before {
+    right: 15px;
+}
+
+.sa_circle {
+    height: 16px;
+    width: 16px;
+    border: 1px solid #7f8fa5;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 8px;
+    position: absolute;
+    display: inline-block;
+}
+
+ /*Buttons*/
+ul.buttons {
+    text-align: center;
+}
+
+ul.buttons li {
+    display: inline-block;
+}
+
+ul.buttons li > a {
+    text-decoration: none;
+}
+
+ul.buttons li > div.sa_buttons_start {
+    background-color: #00c7fb;
+}
+
+ul.buttons li > a > div.sa_effect:hover {
+    background-color: #00c7fb;
+    transition: 0.4s;
+}
+
+ ul.buttons li div.sa_buttons {
+    text-align: center;
+    margin-top: 69px;
+    padding: 10px 21px;
+    margin-left: 20px;
+    box-sizing: border-box;
+ }
+
+ ul.buttons li:first-child {
+    margin-left: 0px;
+    
+ }
+
+/*.subscribe input[type="text"] {
+    outline: 1px solid blue;
+    background-color: red;
+    padding: 22px;
+}*/

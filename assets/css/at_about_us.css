@@ -1,0 +1,174 @@
+
+ /*--------------------------
+    1.ABOUT US - Main / Title/ text
+    2.ABOUT US - Separator
+    3.ABOUT US - Main / Pics elements
+    4.ABOUT US - Footer / Hidden / elements
+   ---------------------------*/
+
+    /*background colous About_Us*/
+
+.colmain_abus { 
+    background-color: #222c3f;
+}
+
+.colsec_abus {
+    background-color: #151f31;
+}
+
+    /*colours TEXT About_Us*/
+
+.col_abus_titles { 
+    color: #fff;
+}
+
+.col_abus_text {
+    color: #c8cacf;
+}
+
+.col_abus_eltitxt {
+    color: #90959f;
+}
+
+.col_abus_hidtex {
+    color: #8a8f98;  
+}   
+
+/* ABOUT US structure - Title/text*/
+
+.at_about_us_main > h2 {
+    font-size: 30px;
+    margin-top: 64px;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 8px;
+}
+.at_about_us_main > h3 {
+    font-size: 20px;
+    margin-top: 19px;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 2px;
+}
+
+.at_about_us_main ~ p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 69px;
+}
+    /*Separator*/
+
+.at_separator {
+    text-align: center;
+    position: relative;
+    left: 5px;
+    top: 31px;
+}
+
+.lines {
+    margin-top: 23px;
+    position: relative;
+    display: inline;
+}
+
+.lines:after, .lines:before {
+    content: '';
+    width: 274px;
+    height: 1px;
+    background: #313a4c;
+    position: absolute;
+}
+
+.lines:after {
+    left: 11px;
+}
+
+.lines:before {
+    right: 12px;
+}
+
+.circle {
+    height: 16px;
+    width: 16px;
+    border: 1px solid #fff;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 8px;
+    position: absolute;
+    display: inline-block;
+}
+
+
+.at_about_us_main ~ p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 69px;
+}
+
+
+    /* Main / Pics elements*/
+
+.at_about_us_team {
+    max-width: 1170px;
+    width: 100%;
+    height: 677px;
+    margin-top: 85px;
+}
+div[class^="at_photo_pic"] {
+    width: 216px;
+    height: 216px;
+    border: 1px solid #fff;
+    border-radius: 108px;
+    background-color: #161f32;
+    margin-left: 15px;
+    
+}
+
+div.at_photo_pic4 {
+    margin-right: 0;
+}
+
+.at_photo_pic1 {
+    background: url("../img/team/john_doe.svg")no-repeat;
+    background-size: cover; 
+}
+.at_photo_pic2 {
+    background: url("../img/team/lorem_ipsum.svg")no-repeat;
+    background-size: cover;
+}
+
+.at_photo_pic3 {
+    background: url("../img/team/lorem_doe.svg")no-repeat;
+    background-size: cover;
+}
+.at_photo_pic4 {
+    background: url("../img/team/john_ipsum.svg")no-repeat;
+    background-size: cover;
+}
+
+div[class^="at_pic"] > h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 23px;
+}
+
+div[class^="at_pic"] > p {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+div[class^="at_pic"] {
+    margin-left: 45px;
+    margin-top: 16px;
+}    
+    

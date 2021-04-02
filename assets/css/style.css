@@ -1,0 +1,57 @@
+/*Landing info flexbox*/
+.st_container {
+    background-color: rgb(84, 98, 121);
+    height: 700px;
+    margin: auto;
+    position: relative;
+
+}
+
+.st_showcase-inner {
+    background-color: rgb(34, 44, 64);
+    height: 354px;
+    width: 100%; 
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.st_showcase-inner > h1 {
+    font-family: 'molleregular';
+    font-size: 52px;
+    font-weight: 400;
+    color: #fff;
+}
+    
+.st_showcase-inner > p {
+    font-family: 'latolight';
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.btn {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'latolight';
+    display: inline-block;
+    border: 2px solid #fff;
+    background-color: rgb(34, 44, 64);
+    color: #fff;
+    margin-top: 19px;
+    padding: 1.8rem 5.1rem;
+    text-decoration: none;
+}
+
+
+
+

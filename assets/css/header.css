@@ -1,0 +1,65 @@
+/*----------
+1.Main
+2.Logo
+3.Navigation
+-------------*/
+
+/*Main*/
+header {
+	padding-top: 34px;
+	background-color: #fff;
+}
+
+header:before {
+	content: '';
+	position: absolute;
+	height: 2px;
+	width: 100%;
+	background-color: rgb(21, 31, 49);
+	top: 0;
+	padding: 0;
+}
+
+/*Logo*/
+header .logo {
+	float: left;
+	font-size: 37px;
+	font-weight: 400;
+	font-family: 'molleregular';
+	padding-bottom: 31px;
+}
+
+header .logo a{
+	text-decoration: none;
+
+}
+
+header .logo a span {
+	color: #161f32;
+
+}
+
+/*Navigation*/
+header nav {
+	float: right;
+} 
+
+header nav ul {
+
+}
+
+header nav ul li {
+ 	float: left;
+ 	margin-left: 70px;
+}
+
+header nav ul li a {
+	color: #161f32;
+}
+
+header nav ul li a:hover,
+header nav ul li a:visited,
+header nav ul li a:focus {
+	text-decoration: none;
+	color: #161f32;
+}

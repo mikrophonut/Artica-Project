@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 16" width="29" height="16">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #161f32 } 
+	</style>
+	<path id="Arrow Up" class="shp0" d="M-0.25 16.03L14.04 0.24L28.34 16.03L-0.25 16.03Z" />
+</svg>
