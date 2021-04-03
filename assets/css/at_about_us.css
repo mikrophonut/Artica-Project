@@ -125,6 +125,10 @@
     margin-top: 85px;
 }
 
+#at_about_us > div.at_about_us_team > div[class^="at_photo_pic"]:hover + #problem {
+    display: block;
+}
+
 div[class^="at_photo_pic"] {
     width: 216px;
     height: 216px;
@@ -132,6 +136,7 @@ div[class^="at_photo_pic"] {
     border-radius: 108px;
     background-color: #161f32;
 }
+
 
 .at_photo_pic1 {
     background: url("../img/team/john_doe.svg")no-repeat, no-repeat;
@@ -175,24 +180,51 @@ div[class^="at_pic"] > p {
     font-weight: 300;
     text-align: right;
     margin-top: 10px;
-   }
+}
 
-
-.at_hidden1 {
-    width: 1170px;
+.at_hiden1 {
     height: 263px;
     position: relative;
-    background-color: #9F8A13;
-
+    right: 5px;                                                                                                                                                                             
+    /*display: none;*/  
 }  
 
-.at_hidden1 > h4 {
-    font-size: 20px;
-    font-weight: 700;
+.at_hiden1 > a {
+    margin-left: 99%;
+    position: absolute;
+    top: 25px;
 } 
 
-.at_hidden1 > p {
+.at_hiden1 > h3 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 34px;
+} 
+
+div.at_hiden1 > h3 + p {
     font-size: 15px;
     font-weight: 300;
     text-align: left;
+    margin-top: 34px;
+    margin-bottom: 30px;
 } 
+
+div.at_hiden1 > h3 + p ~ p {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 10px;
+}
+
+div.at_hiden1 > h3 + p ~ p > i {
+    margin-right: 10px; 
+}
+
+div.strelka {
+    width: 29px;
+    height: 16px;
+    background: url("../img/team/arrow_hidden.svg")no-repeat, no-repeat;
+    position: relative;
+    bottom: 16px;
+    left: 120px;
+}
