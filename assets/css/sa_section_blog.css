@@ -2,6 +2,9 @@
 1.Title, paragpraph
 2.Separator
 3.Buttons
+4.Images
+5.After image arrow
+6.Subscribe form 
 */
 
 /*Background color sa_blog*/
@@ -11,6 +14,10 @@
 
 .img_back_color {
     background-color: #161f32;
+}
+
+.form_back_color {
+    background-color: #3d4f6f;
 }
 
 /*Color*/
@@ -46,6 +53,7 @@ div.sa_title > h2 + h3 {
 
 div.sa_title > p {
     margin-top: 65px;
+    line-height: 17px;
     text-transform: none;
     font-size: 15px;
     text-align: center; 
@@ -117,11 +125,13 @@ ul.buttons li > a > div.sa_effect:hover {
     transition: 0.4s;
 }
 
- ul.buttons li div.sa_buttons {
+ ul.buttons li div.inside_buttons {
+    font-size: 20px;
     text-align: center;
     margin-top: 69px;
     padding: 10px 21px;
     margin-left: 20px;
+    margin-bottom: 57px;
     box-sizing: border-box;
  }
 
@@ -130,8 +140,340 @@ ul.buttons li > a > div.sa_effect:hover {
     
  }
 
-/*.subscribe input[type="text"] {
-    outline: 1px solid blue;
-    background-color: red;
-    padding: 22px;
-}*/
+/*Images*/
+ div.sa_images_top .blog_1 {
+    /*text-align: center;*/
+    margin-left: -2px;
+    position: relative;
+}
+
+div.sa_images_top .blog_2 {
+    position: relative;
+    margin-left: 6px;
+}
+
+div.sa_images_top .blog_1 > div.sa_top_img_background {
+    padding-left: 22px;
+    color: white;
+    /*display: block;*/
+    width: 286px;
+    height: 300px;
+    background-color: #161f32;
+    position: absolute;
+    margin-top: -302px;
+    margin-left: 286px;
+}
+
+div.sa_images_top .blog_2 > div.sa_top_img_background {
+    padding-left: 22px;
+    color: white;
+    /*display: block;*/
+    width: 286px;
+    height: 300px;
+    background-color: #161f32;
+    position: absolute;
+    margin-top: -302px;
+    margin-left: 286px;
+}
+
+div.sa_images_top div.sa_top_img_background.triangle-left:before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #161f32;
+    position: absolute;
+    top: 57px;
+    right: 286px;
+}
+
+div.sa_images_top div.sa_top_img_background > span.top_text {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 26px;
+    line-height: 28px;
+}
+
+div.sa_images_top div.sa_top_img_background > span.mid_text {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 23px;
+}
+
+div.sa_images_top div.sa_top_img_background > span.bottom_text {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    word-spacing: 3px;
+    line-height: 16px;
+    width: 240px;
+}
+
+
+div.sa_images_top > div img.sa_top_img {
+    height: 300px;
+    width: 286px;
+}
+
+div.sa_images_middle > div img.sa_mid_img_left {
+    margin-top: 30px;
+    height: 300px;
+    width: 770px;
+}
+
+div.sa_images_middle .blog_3 {
+    margin-left: -2px;
+    position: relative;
+} 
+
+div.sa_images_middle .blog_3 > div.sa_mid_img_left_background {
+    padding-left: 23px;
+    color: white;
+    width: 770px;
+    height: 300px;
+    background-color: #161f32;
+    position: absolute;
+    margin-top: -302px;
+}
+
+div.sa_images_middle div.sa_mid_img_left_background > span.top_text {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 17px;
+}
+
+div.sa_images_middle div.sa_mid_img_left_background > span.mid_text {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+div.sa_images_middle div.sa_mid_img_left_background > span.bottom_text {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    width: 733px;
+}
+
+div.sa_images_middle > div img.sa_mid_img_right {
+    margin-top: 30px;
+    margin-left: 5px;
+    height: 300px;
+    width: 375px;
+}
+
+div.sa_images_top .blog_4 {
+    position: relative;
+}
+
+div.sa_images_middle .blog_4 > div.sa_mid_img_right_background {
+    padding-left: 22px;
+    margin-top: -2px;
+    margin-left: 5px;
+    color: white;
+    /*display: block;*/
+    width: 375px;
+    height: 332px;
+    background-color: #161f32;
+    position: absolute;
+}
+
+div.sa_images_middle div.sa_mid_img_right_background > span.top_text {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 23px;
+    margin-bottom: 15px;
+    word-spacing: 2px;
+}
+
+div.sa_images_middle div.sa_mid_img_right_background > span.mid_text {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+div.sa_images_middle div.sa_mid_img_right_background > span.bottom_text {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    word-spacing: 2px;
+    line-height: 16px;
+    width: 330px;
+}
+
+div.sa_images_middle div.sa_mid_img_right_background.triangle-up:before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #161f32;
+    position: absolute;
+    top: -15px;
+    right: 288px;
+}
+
+div.sa_images_bottom div img.sa_bottom_img1 {
+    margin-top: 28px;
+    margin-left: -2px;
+    height: 301px;
+    width: 370px;
+}
+
+div.sa_images_bottom div img.sa_bottom_img2 {
+    margin-top: 28px;
+    margin-left: 2px;
+    height: 301px;
+    width: 370px;
+}
+
+div.sa_images_bottom .blog_5 > div.sa_bottom_img_background {
+    padding-left: 22px;
+    margin-top: -2px;
+    margin-left: -2px;
+    color: white;
+    /*display: block;*/
+    width: 370px;
+    height: 301px;
+    top: 30px;
+    background-color: #161f32;
+    position: absolute;
+}
+
+div.sa_images_bottom .blog_6 > div.sa_bottom_img_background {
+    padding-left: 22px;
+    margin-top: -2px;
+    margin-left: 2px;
+    color: white;
+    /*display: block;*/
+    width: 370px;
+    height: 301px;
+    top: 30px;
+    background-color: #161f32;
+    position: absolute;
+}
+
+div.sa_images_bottom div.sa_bottom_img_background > span.top_text {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 21px;
+}
+
+div.sa_images_bottom div.sa_bottom_img_background > span.mid_text {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+div.sa_images_bottom div.sa_bottom_img_background > span.bottom_text {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    width: 310px;
+}
+
+/*After image arrow*/
+div.arrow_button {
+    text-align: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    margin: 22px auto 23px auto;  
+}
+
+div.arrow_button a {
+    display: inline-block;
+    padding: 17px;
+}
+
+div.arrow_button:hover {
+    background-color: #00c7fb;
+    transition: 0.4s;
+}
+
+/*Subscribe form*/
+div.sa_blog_footer h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+div.sa_blog_footer p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 26px;
+}
+
+.sa_blog_footer form {
+    margin-top: 50px;
+    margin-left: -4px;
+    text-align: center;
+}
+
+.sa_blog_footer form div.input-field {
+    display: inline-block;
+    max-width: 172px;
+    width: 100%;
+}
+
+.sa_blog_footer form div.input-field:first-child {
+    max-width: 580px;
+    width: 100%;
+    margin-right: 18px;
+    padding: 0 24px;
+}
+
+.sa_blog_footer form div.input-field input {
+    height: 66px;
+    border: none;
+    display: block;
+    width: 100%;
+    outline: none;
+    color: #fff;
+}
+
+.sa_blog_footer form div.input-field input[type="email"] {
+    text-align: left;
+    font-size: 19px;
+}
+
+.sa_blog_footer form div.input-field input[type="email"]::placeholder {
+    color: #fff;
+}
+
+.sa_blog_footer form div.input-field input[type="submit"] {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/*Desktop*/
+@media only screen and (max-width: 992px) {
+
+}
+
+/*Small devices*/
+@media only screen and (max-width: 768px) {
+    footer form div.input-field:first-child {
+        margin-bottom: 50px;
+    }
+}
+
