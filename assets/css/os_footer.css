@@ -1,17 +1,18 @@
-footer h2
+div.arctica-end
 {
-	font-family: 'molleregular' !important;
-	font-weight: 400 !important;
-	font-size: 37px !important;
-	color:#fff !important;
-	text-align: center;
-	margin-top: 50px;
+	font-family: 'molleregular';
+	font-weight: 400;
+	font-size: 37px;
+	color:#fff;
+	text-align: center ;
+	margin-top: 60px;
 }
-footer p
+div .end
 {
 	font-family: 'latoregular';
 	font-size: 11px;
 	color:#8a8f98;
 	font-weight: 300;
 	margin-top: 13px;
+	margin-left: 10px;
 }
