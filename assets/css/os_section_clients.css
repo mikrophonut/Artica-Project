@@ -1,4 +1,3 @@
-
 div.clients_main_color
 {
     background-color: #151f31;
@@ -13,7 +12,7 @@ div.title_clients
     padding-top: 60px;
 }
 
-.tx_slv 
+div .tx_slv 
 {
     font-size: 15px;
     color: #ffffff;
@@ -21,33 +20,36 @@ div.title_clients
     margin-top: 20px;
 }
 
-.tx_slv .icons
+div .tx_slv .icons
 {
     /*text-align: left;*/
-    padding-top:63px;
+    margin-top:63px;
 }
 
-/************** ERROR*/
-.tx_slv ul.icons li
+.os_param
 {
-    float: right;
-    float: left;
-    display: inline-block;
-    margin-right: 76px;
+    line-height: 17px;
 }
-.tx_slv ul.icons li img:hover 
+/************** ERROR*/
+div .tx_slv ul.icons li
+{
+    float: left;
+    margin-right: 65px;
+}
+/***********************/
+div .tx_slv ul.icons li img:hover 
 {
     background-color: #00c7fb;
     cursor: pointer;
     transition: 0.3s;
 }
-.tx_slv ul.icons li:first-child 
+div .tx_slv ul.icons li:first-child 
 {
-    margin-left: 420px;
+    margin-left: 60px;
     position: relative;
 }
-
-.jhn
+/*Text John*/
+div .jhn
 {
     font-size: 20px !important;
     color: #3d506f;
@@ -57,9 +59,8 @@ div.title_clients
 }
 
 /*Testimonial*/
-.tx_testimonial
+div .tx_testimonial
 {
-    font-style: 'latoregular';
     font-weight: 400;
     color: #3d506f;
 }
@@ -80,21 +81,21 @@ div.tx_testim p
     margin-top: 35px;
 }
 /*Seperator*/
-.os_seperator
+div .os_seperator
 {
     text-align: center;
     position: relative;
     left: -1;
     top: 42px;
 }
-.os_seperator .line
+div .os_seperator .line
 {
     margin-top: 23px;
     position: relative;
     display: inline;
 }
 
-.os_seperator .line:after, .line:before
+div .os_seperator .line:after, .line:before
 {
     content:'';
     width: 274px;
@@ -103,17 +104,17 @@ div.tx_testim p
     position: absolute;
 }
 
-.os_seperator .line:after
+div .os_seperator .line:after
 {
     left: 15px;
 }
 
-.os_seperator .line:before
+div .os_seperator .line:before
 {
     right: 15px;
 }
 
-.os_seperator .circle
+div .os_seperator .circle
 {
     width: 15px;
     height: 15px;
@@ -127,5 +128,3 @@ div.tx_testim p
     position: absolute;
     display: inline-block;
 }
-
-

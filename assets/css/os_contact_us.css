@@ -1,0 +1,201 @@
+div .tx_contact_title 
+{
+    color:#fff;
+    margin-top: 68px;
+}
+div .tx_conct{
+    font-family: 
+    font-size: 20px;
+    font-weight: 400;
+    color:#fff;
+    text-align: center;
+    margin-top: 24px;
+}
+/*Seperactor*/ 
+div .contact_seperactor
+{
+    text-align: center;
+    position: relative;
+    left: -1;
+    top: 42px;
+}
+div.contact_seperactor .c_line
+{
+    margin-top: 23px;
+    position: relative;
+    display: inline;
+}
+
+div .contact_seperactor .c_line:after, .c_line:before
+{
+    content:'';
+    width: 274px;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+}
+
+div .contact_seperactor .c_line:after
+{
+    left: 15px;
+}
+
+div .contact_seperactor .c_line:before
+{
+    right: 15px;
+}
+
+div .contact_seperactor .c_circle
+{
+    width: 16px;
+    height: 16px;
+    border: 1px solid #fff;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; 
+    margin:auto;
+    border-radius: 8px;
+    position: absolute;
+    display: inline-block;
+}
+
+/*Text*/
+div .donec
+{
+    font-size: 15px;
+    color:#fff;
+    font-weight: 400;
+    text-align: center;
+
+    margin-top: 75px;
+}
+
+/*Icon*/
+div .os_icon
+{
+    margin-top: 56px;
+}
+
+div .os_icon:first-child 
+{
+    margin-left: 153px;
+}
+
+div .message
+{
+    margin-left: 142px;
+}
+
+div .phone
+{
+    margin-left: 283px;
+}
+/*Icon Message*/
+
+div .os_icon h2
+{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: right;
+    color: #fff;
+    margin:25px 260px 10px -15px;
+}
+
+div .os_icon h2 + p
+{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: right;
+    color: #fff;
+    float: left;
+    margin:7px 0px 19px -73px; 
+}
+
+div.os_icon div img.message + h2
+{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: right;
+    color: #fff;
+    margin:25px 150px 10px 156px;
+}
+
+div.os_icon div img.message + h2 + p
+{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: right;
+    color: #fff;
+    margin:8px 100px 10px 87px; 
+}
+div.os_icon div img.phone + h2
+{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: right;
+    color: #fff;
+    margin:26px 256px 10px 284px;
+}
+
+div.os_icon div img.phone + h2 + p
+{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: right;
+    color: #fff;
+    margin:6px -185px 18px 240px; 
+}
+/*Forms*/
+form input.input-fielde
+{
+    max-width: 368px;
+    height: 65px;
+    width: 100%;
+    background-color: #151f31;
+    border: 1px solid #fff;
+    font-style: italic;
+    margin-top: 36px;
+    color:#fff;
+    padding:0 24px;
+}
+
+form input.input-fielde::placeholder
+{
+    color: #fff;
+}
+
+form input.message-boxe
+{
+    max-width: 1167px;
+    height: 211px;
+    max-height: 211px;
+    width: 100%;
+    background-color: #151f31;
+    border: 1px solid #ffffff;
+    margin-top: 30px;
+    padding: 0px 20px 156px 20px;
+    font-style: italic;
+    text-align: left;
+    color: #fff;
+}
+form input.message-boxe::placeholder
+{
+    color: #fff;
+}
+
+
+form input.submite
+{
+    width: 235px;
+    height: 67px;
+    background-color: #fff;
+    margin-top: 32px;
+    margin-left: 468px;
+    border:none;
+}
+form input.submite:hover
+{
+    background-color: #00c7fb;
+    transition: 0.3s;
+}
