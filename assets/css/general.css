@@ -105,19 +105,43 @@ section#sa_blog {
 
  /*Ali Osman*/
 
-section#os_clients 
-{
+section#os_clients {
     font-family: 'latoregular';
     height: 648px;
 }
-
-.os_shell 
+.os_clients_container
 {
+    max-width: 1170px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.os_shell {
     height: 327px;
     background-color: #151f31;
 }
-.os_shell_2 
-{
+.os_shell_2 {
     height: 320px;
     background-color: #fff;
 }
+section#os_contact_us{
+    height: 945px;
+    background-color: #151f31;
+}
+.os_container_contact
+{
+    max-width: 1170px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.os_shell_contact {
+    font-family: 'latoregular';
+}
+
+footer#os_end
+{
+    height: 152px;
+    background-color: #161f32;
+}
+

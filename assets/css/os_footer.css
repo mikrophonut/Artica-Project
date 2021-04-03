@@ -1,9 +1,9 @@
 footer h2
 {
-	font-family: 'molleregular';
-	font-weight: 400;
-	font-size: 37px;
-	color:#fff;
+	font-family: 'molleregular' !important;
+	font-weight: 400 !important;
+	font-size: 37px !important;
+	color:#fff !important;
 	text-align: center;
 	margin-top: 50px;
 }
