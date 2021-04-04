@@ -1,17 +1,17 @@
 .st_unit {
-height: 600px;
-left: 0;
-right: 0;
-margin: auto;
-text-align: center;
+	height: 600px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
 }
 
-.st_name {
+.col-lg-12 > h2 {
 padding-top: 38px;
 font-size: 30px;
 color: #3d506f;
 font-weight: 400;
-font-family: 'latobold';
+font-family: 'latoregular';
 }
 
 .st_1 {
@@ -44,5 +44,3 @@ font-size: 15px;
 color: #7f90a5;
 font-weight: 400;	
 }
-
-/*Quote*/

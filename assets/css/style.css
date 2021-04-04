@@ -1,10 +1,9 @@
 /*Landing info flexbox*/
-.st_main-top {
+.st_container {
     background-color: rgb(84, 98, 121);
     height: 700px;
     margin: auto;
     position: relative;
-    width: 100%;
 
 }
 
