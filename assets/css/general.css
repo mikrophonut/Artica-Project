@@ -104,10 +104,9 @@ section#sa_blog {
 }
 
  /*Ali Osman*/
-
 section#os_clients {
     font-family: 'latoregular';
-    height: 648px;
+    min-height: 648px;
 }
 .os_clients_container
 {
@@ -117,15 +116,15 @@ section#os_clients {
     margin: auto;
 }
 .os_shell {
-    height: 327px;
+    min-height: 327px;
     background-color: #151f31;
 }
 .os_shell_2 {
-    height: 320px;
+    min-height: 320px;
     background-color: #fff;
 }
 section#os_contact_us{
-    height: 945px;
+    min-height: 945px;
     background-color: #151f31;
 }
 .os_container_contact
@@ -141,7 +140,8 @@ section#os_contact_us{
 
 footer#os_end
 {
-    height: 152px;
+    min-height: 152px;
     background-color: #161f32;
 }
+
 

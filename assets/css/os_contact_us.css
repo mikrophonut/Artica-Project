@@ -184,6 +184,10 @@ form input.message-boxe::placeholder
     color: #fff;
 }
 
+div .submit
+{
+    text-align: center;
+}
 
 form input.submite
 {
@@ -191,7 +195,6 @@ form input.submite
     height: 67px;
     background-color: #fff;
     margin-top: 32px;
-    margin-left: 468px;
     border:none;
 }
 form input.submite:hover

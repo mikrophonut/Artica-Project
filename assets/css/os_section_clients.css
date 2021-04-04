@@ -22,7 +22,6 @@ div .tx_slv
 
 div .tx_slv .icons
 {
-    /*text-align: left;*/
     margin-top:63px;
 }
 
@@ -30,13 +29,12 @@ div .tx_slv .icons
 {
     line-height: 17px;
 }
-/************** ERROR*/
 div .tx_slv ul.icons li
 {
-    float: left;
-    margin-right: 65px;
+    display: inline-block;
+    /*margin-right: 65px;*/
+    margin-left: 70px;
 }
-/***********************/
 div .tx_slv ul.icons li img:hover 
 {
     background-color: #00c7fb;
@@ -46,7 +44,7 @@ div .tx_slv ul.icons li img:hover
 div .tx_slv ul.icons li:first-child 
 {
     margin-left: 60px;
-    position: relative;
+    /*position: relative;*/
 }
 /*Text John*/
 div .jhn
@@ -55,6 +53,7 @@ div .jhn
     color: #3d506f;
     text-align: center;
     margin-top: 87px !important;
+    margin-bottom: 65px !important;
 
 }
 
