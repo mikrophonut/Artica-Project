@@ -48,12 +48,12 @@ section#at_about_us {
 
    /*Stanislava*/
 
-   /*Common*/
+  /*Common*/
 
 .zh_shell {
     max-width: 1170px;
     margin: 0 auto;
-    background: #D09A91;
+/*    background: #D09A91;*/
 }
 
 .zh_clear:after {
@@ -69,6 +69,7 @@ section#at_about_us {
 
 .nopadding_col {
     padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 /*Colors*/
