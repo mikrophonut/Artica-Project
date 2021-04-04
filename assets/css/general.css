@@ -93,7 +93,7 @@ section#at_about_us {
 
 section#sa_blog {
     font-family: 'latoregular';
-    height: 1810px;
+    min-height: 1810px;
 }
 
 .sa_buttons_container {
