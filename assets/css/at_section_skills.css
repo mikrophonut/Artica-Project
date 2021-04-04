@@ -139,7 +139,7 @@ div.col-lg-6:last-chaild {
     float: left;
 }
 
-.at_skills_footer > ul > li > span {
+.at_skills_footer > ul > li > div.customer + div {
     display: table-cell;
     position: relative;
     bottom: 71px;
@@ -161,19 +161,19 @@ div.customers {
     margin-right: 222px;
 }
 
-div.customers > span > h2 {
+div.customers > div > h2 {
     font-size: 40px;
     margin-bottom: 4px;
     padding-left: 4px;
 }
 
-div.customers > span > p {
+div.customers > div > p {
     font-size: 15px;
     margin-right: 2px;
     padding-left: 6px; 
 }
 
-div.customers > span {
+div.customers > div {
     position: relative;
     left: 80px;
 }   
@@ -187,19 +187,19 @@ div.awards {
     text-align: center;
 }
 
-.awards > span > h2 {
+.awards > div > h2 {
     font-size: 40px;
     margin-bottom: 1px;
     margin-right: 22px;
 }
 
-div.awards > span > p {
+div.awards > div > p {
     font-size: 15px;
     margin-top: 4px;
     margin-right: 9px;    
 }
 
-div.awards > span {
+div.awards > div {
     position: relative;
     left: 80px;
 }   
@@ -212,19 +212,19 @@ div.projects {
     margin-right: 245px;
 }
 
-div.projects > span > h2 {
+div.projects > div > h2 {
     font-size: 40px;
     margin-right: 12px;
 }
 
-div.projects > span > p {
+div.projects > div > p {
     font-size: 16px;
     margin-right: 11px;
     margin-top: 2px;
 
 }
 
-div.projects > span {
+div.projects > div {
     position: relative;
     left: 68px;
     top: 6px;
@@ -239,18 +239,18 @@ div.followers {
     margin-bottom: 72px;
 }
 
-div.followers > span {
+div.followers > div {
     position: relative;
     left: 86px;
     bottom: 6px;
 }   
 
-div.followers > span > h2 {
+div.followers > div > h2 {
     font-size: 40px;
 
 }
 
-div.followers > span > p {
+div.followers > div > p {
     font-size: 15px;
     margin-top: 2px;    
 }
