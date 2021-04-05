@@ -129,9 +129,6 @@ div.col-lg-6:last-chaild {
 
    /*Skills - / Foother line / element*/
     
-.at_skills_footer > ul {
-    float: right;
-}
 
 .at_skills_footer > ul > li {
     text-decoration: none;
@@ -255,7 +252,17 @@ div.followers > div > p {
     margin-top: 2px;    
 }
 
+    
+    /*Medium Device*/
 
+
+@media only screen and (max-width:  800px) {
+    .at_skills_footer > ul > li {
+        display: inline-block;  
+        float: none;
+        margin-left: 5%;
+    }
+}
 
 
 
