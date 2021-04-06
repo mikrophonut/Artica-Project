@@ -51,16 +51,13 @@ section#at_about_us {
 
   /*Common*/
 
+
+/*Common*/
+
 .zh_shell {
     max-width: 1170px;
     margin: 0 auto;
 /*    background: #D09A91;*/
-}
-
-.zh_clear:after {
-    content: '';
-    display: block;
-    clear: both;
 }
 
 .nopadding {
@@ -90,6 +87,8 @@ section#at_about_us {
 .zh_desc_backgr_color {
     background-color: #3d506f;
 }
+
+
 
    /*Ali Said*/
 
