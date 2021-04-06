@@ -4,7 +4,8 @@
 3.Buttons
 4.Images
 5.After image arrow
-6.Subscribe form 
+6.Subscribe form
+7.Media screen
 */
 
 /*Background color sa_blog*/
@@ -271,7 +272,7 @@ div.sa_images_middle > div img.sa_mid_img_right {
     width: 375px;
 }
 
-div.sa_images_top .blog_4 {
+div.sa_images_middle .blog_4 {
     position: relative;
 }
 
@@ -330,6 +331,14 @@ div.sa_images_bottom div img.sa_bottom_img1 {
     margin-left: -2px;
     height: 301px;
     width: 370px;
+}
+
+div.sa_images_middle .blog_5 {
+    position: relative;
+}
+
+div.sa_images_middle .blog_6 {
+    position: relative;
 }
 
 div.sa_images_bottom div img.sa_bottom_img2 {
@@ -394,7 +403,7 @@ div.arrow_button {
     width: 56px;
     height: 56px;
     border-radius: 28px;
-    margin: 22px auto 23px auto;  
+    margin: 26px auto 61px auto;  
 }
 
 div.arrow_button a {
@@ -465,15 +474,141 @@ div.sa_blog_footer p {
     text-align: center;
 }
 
-/*Desktop*/
-@media only screen and (max-width: 992px) {
+/*Media screen*/
+/*Desktops*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    form div.input-field.email{
+        margin-bottom: 10px;
+    }
 
-}
+    .sa_position_blog1 {
+        margin-left: 5px;
+    }
 
-/*Small devices*/
-@media only screen and (max-width: 768px) {
-    footer form div.input-field:first-child {
-        margin-bottom: 50px;
+    .sa_position_blog2 {
+        margin-left: -2px;
+    }
+
+    .blog_2 {
+        margin-top: 30px;
+    }
+
+    div.blog_5 {
+        margin-bottom: 400px;
+        margin-left: 400px;
+    }
+
+    .sa_position_blog5 {
+        margin-top: -332px;
+    }
+
+    .sa_position_blog6 {
+        /*margin-top: 300px;*/
+        margin: 0 auto;   
     }
 }
 
+/*Tablets*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    form div.input-field.email{
+        margin-bottom: 10px;
+    }
+
+    .sa_position_blog1 {
+        margin-left: 5px;
+    }
+
+    .sa_position_blog2 {
+        margin-left: -2px;
+    }
+
+    .blog_2 {
+        margin-top: 30px;
+    }
+
+    div.blog_5 {
+        margin-bottom: 400px;
+        margin-left: 400px;
+    }
+
+    .sa_position_blog5 {
+        margin-top: -332px;
+    }
+
+    .sa_position_blog6 {
+        /*margin-top: 300px;*/
+    }
+}
+
+/*Small devices*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    form div.input-field.email{
+        margin-bottom: 10px;
+    }
+
+    .sa_position_blog1 {
+        margin-left: 5px;
+    }
+
+    .sa_position_blog2 {
+        margin-left: -2px;
+    }
+
+    .blog_2 {
+        margin-top: 30px;
+    }
+
+    div.blog_3 {
+        display: none;
+    }
+
+    div.sa_position_blog5 {
+        margin-top: 350px;
+        margin-left: 5px;
+    }
+
+    div.sa_position_blog6 {
+        margin-left: 0;
+    }
+
+    form div.input-field.email{
+        margin-bottom: 10px;
+    }
+}
+
+/*Extra small devices*/
+@media (max-width: 575.98px) {
+
+    .sa_position_blog1 {
+        margin-left: 5px;
+    }
+
+    .sa_position_blog2 {
+        margin-left: -2px;
+    }
+
+    .blog_2 {
+        margin-top: 30px;
+    }
+
+    div.sa_top_img_background {
+        display: none;
+    }
+
+    div.blog_3 {
+        display: none;
+    }
+
+    div.sa_position_blog5 {
+        margin-top: 350px;
+        margin-left: 5px;
+    }
+
+    div.sa_position_blog6 {
+        margin-left: 0;
+    }
+
+    form div.input-field.email{
+        margin-bottom: 10px;
+    }    
+}
