@@ -19,21 +19,21 @@ div .tx_slv
     font-weight: 400;
     margin-top: 20px;
 }
-
-div .tx_slv .icons
+.os_param
+{
+    line-height: 18px;
+}
+/*Icon*/
+div .icons
 {
     margin-top:63px;
 }
 
-.os_param
-{
-    line-height: 17px;
-}
 div .tx_slv ul.icons li
 {
     display: inline-block;
-    /*margin-right: 65px;*/
-    margin-left: 70px;
+    margin:0 37px;
+    text-align: center;
 }
 div .tx_slv ul.icons li img:hover 
 {
@@ -43,7 +43,8 @@ div .tx_slv ul.icons li img:hover
 }
 div .tx_slv ul.icons li:first-child 
 {
-    margin-left: 60px;
+    /*margin-right: 73px;*/
+    /*margin-left: 50px;*/
     /*position: relative;*/
 }
 /*Text John*/
@@ -52,9 +53,8 @@ div .jhn
     font-size: 20px !important;
     color: #3d506f;
     text-align: center;
-    margin-top: 87px !important;
-    margin-bottom: 65px !important;
-
+    margin-top: 87px;
+    margin-bottom: 65px;
 }
 
 /*Testimonial*/
@@ -126,4 +126,56 @@ div .os_seperator .circle
     border-radius: 8px;
     position: absolute;
     display: inline-block;
+}
+
+/*Desktop*/
+@media only screen and (max-width: 1170px)
+{
+
+}
+/*Small device*/
+@media only screen and (max-width: 736px)
+{
+    div .icons
+    {
+        margin-top:30px;
+        text-align: center;
+    }
+
+    div .tx_slv ul.icons li
+    {
+        margin: 0 40px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    div .tx_slv ul.icons li img:hover 
+    {
+        background-color: #00c7fb;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    div .tx_slv ul.icons li:first-child 
+    {
+        margin-right: 75px;
+        /*margin-left: 50px;*/
+        /*position: relative;*/
+    }
+    div .os_seperator .line:after, .line:before
+    {
+        width: 145px;
+    }
+    div .os_seperator .circle
+    {
+        width: 14px;
+        height: 14px;
+    }
+    div .os_seperator :before
+    {
+        right: 12px;
+    }
+    div .os_seperator .c_line:after 
+    {
+        left: 12px;
+    }
+
 }
