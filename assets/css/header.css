@@ -1,65 +1,56 @@
-/*----------
+/*------
 1.Main
-2.Logo
-3.Navigation
--------------*/
+2.Navigaton
+
+---------*/
 
 /*Main*/
+
 header {
-	padding-top: 34px;
-	background-color: #fff;
+    padding-top: 32px;
 }
 
-header:before {
-	content: '';
-	position: absolute;
-	height: 2px;
-	width: 100%;
-	background-color: rgb(21, 31, 49);
-	top: 0;
-	padding: 0;
-}
 
 /*Logo*/
+
 header .logo {
-	float: left;
-	font-size: 37px;
-	font-weight: 400;
-	font-family: 'molleregular';
-	padding-bottom: 31px;
-}
-
-header .logo a{
-	text-decoration: none;
-
-}
-
-header .logo a span {
-	color: #161f32;
-
+    float: left;
 }
 
 /*Navigation*/
+
 header nav {
-	float: right;
-} 
+    float: right;
+}
 
 header nav ul {
 
 }
 
 header nav ul li {
- 	float: left;
- 	margin-left: 70px;
+    float: left;
+    margin-left: 70px;
+    height: 70px;
+    display: table;
+
+}
+
+header nav ul li:first-child {
+    margin-left: 0;
 }
 
 header nav ul li a {
-	color: #161f32;
-}
+    color: #161f32;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 20px;
+    display: table-cell;
+    vertical-align: middle;
+ }
 
-header nav ul li a:hover,
-header nav ul li a:visited,
-header nav ul li a:focus {
-	text-decoration: none;
-	color: #161f32;
-}
+ header nav ul li a:hover,
+ header nav ul li a:visited,
+ header nav ul li a:focus {
+    text-decoration: none;
+    color: #161f32;
+ }

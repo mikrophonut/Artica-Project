@@ -3,38 +3,25 @@
 @import url('fonts.css');
 @import url('general.css');
 
-/*Structural*/
+/*Stanislav header + section*/
 @import url('header.css');
-/*at_Skills*/
-@import url('at_section_skills.css');
-@import url('at_about_us.css');
-
-
-	/*Others*/
-  
-  /*Structural*/
-@import url('header.css');
-@import url('style.css');
+@import url('st_info.css');
 @import url('st_services.css');
-@import url('separator.css');
-@import url('st_menu.css');
+@import url('st_quote.css');
+@import url('st_separator.css');
 
+	/*Stanislava - Portfolio*/
 
-	/*Structural*/
-@import url('header.css');
 @import url('zh_portfolio.css');
 
+/*Svetoslav - at_About_us + at_Skills*/
+@import url('at_about_us.css');
+@import url('at_section_skills.css');
 
-/*Structural*/
-@import url('header.css');
-/*sa_Blog*/
+	/*Ali Said - sa_Blog*/
 @import url('sa_section_blog.css');
 
-/*Structural*/
-@import url('header.css');
-/*at_Skills*/
-@import url('at_section_Skills.css');
-/*Ali Osman*/
+	/*Ali Osman section + footer*/
 @import url('os_section_clients.css');
 @import url('os_contact_us.css');
 @import url('os_footer.css');

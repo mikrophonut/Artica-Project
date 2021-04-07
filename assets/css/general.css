@@ -4,47 +4,51 @@
     content: '';
     clear: both;
 }
-    /*Section at_ Skills*/
 
-section#at_skills {
-    font-family: 'latoregular';
-   }
+    /*Stanislav*/
+ /*Header&Section st_ services*/
 
-.at_skills_conteiner, .at_skills_footer {
-    max-width: 1170px;
-    left: 0;
-    right: 0;
-    margin: auto;
-}   
-
-
-
-/*Section at_About_us */
-
-section#at_about_us {
-    font-family: 'latoregular';
-   
+/*Text colors*/
+.st_color_logo {
+    color: #161f32;
 }
 
+.st_color_white {
+    color: #ffffff;
+}
 
-.at_about_us_conteiner {
-    max-width: 1170px;
-    left: 0;
-    right: 0;
-    margin: auto;
-   /* background-color: #C1721D;*/
-}   
+.st_darkb_text {
+    color: #3d506f;
+}
 
-/*Stanislav*/
+.st_lightb_text {
+    color: #7f90a5;
+}
+
+/*Background colors*/
+.st_dark_blue {
+    background-color: #222c3f;
+}
+
+.st_light_blue {
+    background-color: #546279;
+}
+
 
 .st_shell {
     max-width: 1170px;
     margin: 0 auto;
 }
 
-.st_shell .showcase {
-    max-width: 1170px;
-    margin: 0 auto;
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
    /*Stanislava*/
@@ -88,6 +92,36 @@ section#at_about_us {
     background-color: #3d506f;
 }
 
+        /*Svetoslav*/
+    /*Section at_ Skills*/
+
+section#at_skills {
+    font-family: 'latoregular';
+   }
+
+.at_skills_conteiner, .at_skills_footer {
+    max-width: 1170px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}   
+
+
+/*Section at_About_us */
+
+section#at_about_us {
+    font-family: 'latoregular';
+   
+}
+
+
+.at_about_us_conteiner {
+    max-width: 1170px;
+    left: 0;
+    right: 0;
+    margin: auto;
+   /* background-color: #C1721D;*/
+}   
 
 
    /*Ali Said*/

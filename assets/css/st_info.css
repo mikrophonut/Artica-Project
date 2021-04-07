@@ -1,0 +1,71 @@
+/*------
+1.Landing info main
+2. P boton
+
+---------*/
+
+/*Landing info main*/
+.st_info {
+    background-color: rgb(84, 98, 121);
+    height: 700px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+}
+
+.st_item {
+    background-color: rgb(34, 44, 64);
+    height: 354px;
+    width: 100%; 
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'molleregular';
+    font-size: 52px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 24px;
+}
+
+.st_tinfo {
+    font-family: 'latolight';
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 23px;
+}
+
+/*Purshace boton*/
+.btn {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'latolight';
+    display: inline-block;
+    border: 2px solid #fff;
+    background-color: rgb(34, 44, 64);
+    color: #fff;
+    margin-top: 19px;
+    padding: 1.8rem 5.1rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #00c7fb;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
+}
