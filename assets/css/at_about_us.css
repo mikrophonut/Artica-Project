@@ -93,7 +93,7 @@
     right: 12px;
 }
 
-.circle {
+.at_separator .circle {
     height: 16px;
     width: 16px;
     border: 1px solid #fff;
@@ -232,3 +232,13 @@ div.strelka {
     bottom: 16px;
     left: 120px;
 }
+
+
+              /*Med&Smol*/  
+@media only screen and (max-width:  736px) {
+    .lines:after, .lines:before {
+    width: 145px;
+    }
+
+}
+
