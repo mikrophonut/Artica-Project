@@ -192,7 +192,16 @@ form input.submite:hover
     transition: 0.3s;
 }
 
-@media only screen and (max-width: 736px)
+@media only screen and (max-width: 813px)
+{
+    form input.input-fielde
+    {
+        max-width: 800px;
+        /*margin: 20px 80px;*/
+    }
+}
+/*Small device Vertical*/
+@media only screen and (max-width: 415px)
 {
     div .contact_seperactor .c_line:after, .c_line:before
     {
@@ -216,7 +225,7 @@ form input.submite:hover
 
     form input.input-fielde
     {
-        max-width: 414px;
+        max-width: 380px;   
         /*background-color: red;*/
     }
 }

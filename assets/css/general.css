@@ -140,12 +140,13 @@ section#sa_blog {
 
  /*Ali Osman*/
 section#os_clients {
+    margin-top: 20px;
     font-family: 'latoregular';
     min-height: 648px;
 }
 .os_clients_container
 {
-    max-width: 1170px;
+    max-width: 1270px;
     left: 0;
     right: 0;
     margin: auto;
