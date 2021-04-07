@@ -25,7 +25,6 @@ Content:
 
 .zh_p_header {
     padding: 68px 0;
-/*    background-color: yellow;*/
 }
 
 .zh_p_header h2 {
@@ -179,16 +178,6 @@ Content:
     cursor: pointer;
 }
 
-.zh_item p{
-    display: none;
-}
-
-
-.zh_item:hover p > span{
-    font-size: 15px;
-    font-weight: 300;
-}
-
 .zh_item img {
     object-fit: cover;
     width: 100%;
@@ -247,13 +236,14 @@ Content:
 /*Expand-info*/
 
 .zh_exp_info {
+    position: relative;
     max-width: 570px;
     margin-left: 18px;
 }
 
 .zh_exp_info .zh_x_icon{
     position: absolute;
-    top: 25px;
+    bottom: 350px;
     right: 1px;
 }
 
