@@ -60,7 +60,7 @@ div.at_skills_title > h2 + p {
 }
 
 .at_company > p {
-     font-size: 15px;
+    font-size: 15px;
     text-align: left;
     margin-top: 18px;
 }
@@ -108,23 +108,33 @@ div.col-lg-6:last-chaild {
 }
 
 .at_our_skills > h3 + a div {
-    width: 508px;
+    max-width: 540px;
+    /*width: 100%;*/
+    margin-right: 32px; 
+
 }
 
 .at_our_skills > a.at_Java div  {
-    width: 466px;
-     padding-left: 18px;
+    max-width: 540px;
+    /*width: 100%;*/
+    padding-left: 18px;
+    margin-right: 74px; 
+
 }
 
 .at_our_skills > a.at_Graphic div  {
-    width: 523px;
+    max-width: 540px;
+    /*width: 100%;*/
     padding-top: 10px;
+    margin-right: 17px;
 }
 
 .at_our_skills > a:last-child div {
-    width: 497px;
+    max-width: 540px;
+    /*width: 100%;*/
     margin-bottom: 68px;
     padding-left: 17px;
+    margin-right: 43px;
 }
 
    /*Skills - / Foother line / element*/
@@ -132,7 +142,6 @@ div.col-lg-6:last-chaild {
 
 .at_skills_footer > ul > li {
     text-decoration: none;
-    display: table;  
     float: left;
 }
 
@@ -253,25 +262,119 @@ div.followers > div > p {
 }
 
     
-    /*Medium Device*/
+         /* Devices*/
+
+                
+                /*LG*/
+@media only screen and (max-width:  1170px) {
+    .at_company {
+        text-align: center;
+    }
+    .at_company > p {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 18px;
+    }
+
+    .at_our_skills > h3 {
+        text-align: center;    
+    } 
+
+    .at_our_skills > a div {
+        margin-left: 230px;
+    }
+    .at_skills_footer > ul > li {
+        margin-left: 140px;
+    }    
+    div.customers {
+        margin-right: 110px;
+        margin-left: 120px;
+    }
+    div.projects {
+        margin-right: 135px;
+    }
+    div.awards {
+        margin-right: 100px;
+    }
+    div.followers {
+        margin-right: 50px;
+    }
+     .at_about_us_team > .row {
+        margin-left: 70px;
+    }
 
 
-@media only screen and (max-width:  800px) {
+}
+            /*MD*/
+@media only screen and (max-width:  738px) {
+    .at_our_skills > h3 {
+        text-align: center;    
+    } 
+
+    .at_our_skills > a div {
+        margin-left: 30px;
+    }
+    .at_skills_footer > ul > li {
+        float: none;
+        margin-right: 30px;
+        display: inline-block;
+    }    
+    div.customers {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    div.projects {
+        margin-right: 135px;
+    }
+    div.awards {
+        margin-right: 100px;
+    }
+    div.followers {
+        margin-right: 50px;
+    }
+     .at_about_us_team > .row {
+        margin-left: 50px;
+    }
+    
+
+}
+
+              /*SM*/  
+@media only screen and (max-width:  460px) {
     .at_skills_footer > ul > li {
         display: inline-block;  
         float: none;
         margin-left: 5%;
     }
+    .at_our_skills > h3 + a div {
+        margin-right: 32px; 
+    }
+
+    .at_our_skills > a.at_Java div  {
+         margin-right: 74px; 
+    }
+
+    .at_our_skills > a.at_Graphic div  {
+        margin-right: 17px;
+    }
+
+    .at_our_skills > a:last-child div {
+        margin-right: 43px;
+    }
+    .at_about_us_team {
+        margin left: 50px;
+    } 
+
 }
 
+             /*XS*/
 
-
-
-
-
-
-
-
+@media only screen and (max-width:  280px) {
+    .at_about_us_team > .row {
+        margin-left: 0;
+    }                                                                 
+                                                                            
+}
 
 
 

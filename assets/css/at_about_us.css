@@ -64,6 +64,7 @@
     /*Separator*/
 
 .at_separator {
+    width: 100%;
     text-align: center;
     position: relative;
     left: 5px;
@@ -183,7 +184,6 @@ div[class^="at_pic"] > p {
 }
 
 .at_hiden1 {
-    height: 263px;
     position: relative;
     right: 5px;                                                                                                                                                                             
     /*display: none;*/  
@@ -218,6 +218,10 @@ div.at_hiden1 > h3 + p ~ p {
 
 div.at_hiden1 > h3 + p ~ p > i {
     margin-right: 10px; 
+}
+
+div.at_hiden1 > h3 ~ p:last-child {
+    margin-bottom: 35px; 
 }
 
 div.strelka {
