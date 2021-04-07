@@ -11,7 +11,7 @@
 @import url('st_separator.css');
 @import url('st_menu.css');
 
-	/*Stanislava - Portfolio*/
+    /*Stanislava - Portfolio*/
 
 @import url('zh_portfolio.css');
 
@@ -19,10 +19,10 @@
 @import url('at_about_us.css');
 @import url('at_section_skills.css');
 
-	/*Ali Said - sa_Blog*/
+    /*Ali Said - sa_Blog*/
 @import url('sa_section_blog.css');
 
-	/*Ali Osman section + footer*/
+    /*Ali Osman section + footer*/
 @import url('os_section_clients.css');
 @import url('os_contact_us.css');
 @import url('os_footer.css');
