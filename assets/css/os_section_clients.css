@@ -1,3 +1,15 @@
+/***************************
+1-Text
+2-Paragraf height
+3-Text John
+4-Testimonial
+5-Seperator
+6-Screen width
+****************************/
+
+
+/*Text*/
+
 div.clients_main_color
 {
     background-color: #151f31;
@@ -19,14 +31,20 @@ div .tx_slv
     font-weight: 400;
     margin-top: 20px;
 }
+
+
+/*Paragraf height*/
+
 div .os_param
 {
     line-height: 18px;
 }
+
+
 /*Icon*/
 div .icons
 {
-    margin-top:63px;
+    margin-top:50px;
 }
 
 div .tx_slv ul.icons li
@@ -35,20 +53,23 @@ div .tx_slv ul.icons li
     margin:0 40px;
     text-align: center;
 }
+
 div .tx_slv ul.icons li img:hover 
 {
     background-color: #00c7fb;
     cursor: pointer;
     transition: 0.3s;
+    color-overlay
 }
+
 div .tx_slv ul.icons li:first-child 
 {
     margin-left: 100px;
-    /*margin-right: 73px;*/
-    /*margin-left: 50px;*/
-    /*position: relative;*/
 }
+
+
 /*Text John*/
+
 div .jhn
 {
     font-size: 20px !important;
@@ -58,12 +79,15 @@ div .jhn
     margin-bottom: 65px;
 }
 
+
 /*Testimonial*/
+
 div .tx_testimonial
 {
     font-weight: 400;
     color: #3d506f;
 }
+
 div.testimonial 
 {
     font-size: 30px;
@@ -80,7 +104,10 @@ div.tx_testim p
     text-align: center;
     margin-top: 35px;
 }
+
+
 /*Seperator*/
+
 div .os_seperator
 {
     text-align: center;
@@ -88,6 +115,7 @@ div .os_seperator
     left: -1;
     top: 42px;
 }
+
 div .os_seperator .line
 {
     margin-top: 23px;
@@ -129,11 +157,15 @@ div .os_seperator .circle
     display: inline-block;
 }
 
+/*Screen width*/
+
 /*Desktop*/
 @media only screen and (max-width: 1170px)
 {
 
 }
+
+
 /*Small device horizontal*/
 
 @media only screen and (max-width: 813px)
@@ -165,24 +197,9 @@ div .os_seperator .circle
     {
         margin-bottom: 30px;
     }
-    /*div .os_seperator .line:after, .line:before
-    {
-        width: 260px;
-    }
-    div .os_seperator .circle
-    {
-        width: 14px;
-        height: 14px;
-    }
-    div .os_seperator :before
-    {
-        right: 12px;
-    }
-    div .os_seperator .c_line:after 
-    {
-        left: 12px;
-    }*/
 }
+
+
 /*Small device Veritical*/
 @media only screen and (max-width: 415px)
 {
@@ -225,5 +242,4 @@ div .os_seperator .circle
     {
         left: 12px;
     }
-
 }

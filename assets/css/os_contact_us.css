@@ -1,8 +1,21 @@
+/***************************
+1-Text
+2-Seperactor
+3-Icon text
+4-Forms
+5-Submit
+6-Screen width
+****************************/
+
+
+/*Text*/
+
 div .tx_contact_title 
 {
     color:#fff;
     margin-top: 68px;
 }
+
 div .tx_conct
 {
     font-size: 20px;
@@ -11,7 +24,19 @@ div .tx_conct
     text-align: center;
     margin-top: 24px;
 }
+
+div .donec
+{
+    font-size: 15px;
+    color:#fff;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 75px;
+}
+
+
 /*Seperactor*/ 
+
 div .contact_seperactor
 {
     text-align: center;
@@ -19,6 +44,7 @@ div .contact_seperactor
     left: -1;
     top: 42px;
 }
+
 div.contact_seperactor .c_line
 {
     margin-top: 23px;
@@ -60,81 +86,26 @@ div .contact_seperactor .c_circle
     display: inline-block;
 }
 
-/*Text*/
-div .donec
-{
-    font-size: 15px;
-    color:#fff;
-    font-weight: 400;
-    text-align: center;
-    margin-top: 75px;
-}
 
-/*Icon*/
-div .os_icon
-{
-    text-align: center;
-}
-
-div .os_icon:first-child 
-{
-
-}
-
-div .message
-{
-
-}
-
-div .phone
-{  
-
-}
-/*Icon Message*/
+/*Icon text*/
 
 div .os_icon
 {
     font-size: 20px;
-    text-align: center;
     font-weight: 400;
+    text-align: center;
     color: #fff;
 }
+
 div .os_icon h2 
 {
-    font-size: 20px;
-    font-weight: 400;
-    color: #fff;
-    text-align: center;
     margin-top: 25px;
 }
 
 div .os_icon h2 + p
 {
-    font-size: 20px;
-    font-weight: 400;
-    color: #fff;
-    text-align: center;
     margin-top: 18px;
     margin-bottom: 20px;
-}
-
-div .message > img + h2
-{
-    /*text-align: left;*/
-}
-
-div .message > img + h2 + p
-{
-    text-align: center;
-}
-div .phone >img + h2
-{
-
-}
-
-div .phone > img + h2 + p
-{
-    
 }
 
 /*Forms*/
@@ -145,7 +116,6 @@ form input.input-fielde
     width: 100%;
     background-color: #151f31;
     border: 1px solid #fff;
-    font-style: italic;
     margin-top: 36px;
     color:#fff;
     padding:0 24px;
@@ -153,10 +123,11 @@ form input.input-fielde
 
 form input.input-fielde::placeholder
 {
+    font-style: italic;
     color: #fff;
 }
 
-form input.message-boxe
+form input.message-box
 {
     max-width: 1167px;
     height: 211px;
@@ -165,20 +136,25 @@ form input.message-boxe
     border: 1px solid #ffffff;
     margin-top: 30px;
     padding: 0px 20px 156px 20px;
-    font-style: italic;
     text-align: left;
     color: #fff;
 }
-form input.message-boxe::placeholder
+
+form input.message-box::placeholder
 {
+    font-style: italic;
     color: #fff;
 }
 
-div .submit{
+
+/*Submit*/
+
+div .submit
+{
     text-align: center;
 }
 
-form input.submite
+form input.submit-text
 {
     width: 235px;
     height: 67px;
@@ -186,23 +162,27 @@ form input.submite
     margin-top: 32px;
     border:none;
 }
-form input.submite:hover
+
+form input.submit-text:hover
 {
     background-color: #00c7fb;
     transition: 0.3s;
 }
+
+/*Screen width*/
 
 @media only screen and (max-width: 813px)
 {
     form input.input-fielde
     {
         max-width: 800px;
-        /*margin: 20px 80px;*/
     }
 }
+
 /*Small device Vertical*/
 @media only screen and (max-width: 415px)
 {
+    /*Seperactor*/
     div .contact_seperactor .c_line:after, .c_line:before
     {
         width: 145px;
@@ -226,6 +206,5 @@ form input.submite:hover
     form input.input-fielde
     {
         max-width: 380px;   
-        /*background-color: red;*/
     }
 }
