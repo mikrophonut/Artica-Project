@@ -278,7 +278,7 @@ div.sa_images_middle .blog_4 {
 
 div.sa_images_middle .blog_4 > div.sa_mid_img_right_background {
     padding-left: 22px;
-    margin-top: -2px;
+    margin-top: -3px;
     margin-left: 5px;
     color: white;
     /*display: block;*/
@@ -567,8 +567,24 @@ div.sa_blog_footer p {
         margin-left: 5px;
     }
 
+    div.sa_images_bottom div img.sa_bottom_img1 {
+        width: 376px;
+    }
+
+    div.sa_images_bottom .blog_5 > div.sa_bottom_img_background {
+        width: 376px;
+    }
+
     div.sa_position_blog6 {
         margin-left: 0;
+    }
+
+    div.sa_images_bottom div img.sa_bottom_img2 {
+        width: 376px;
+    }
+
+    div.sa_images_bottom .blog_6 > div.sa_bottom_img_background {
+        width: 376px;
     }
 
     form div.input-field.email{
@@ -576,39 +592,260 @@ div.sa_blog_footer p {
     }
 }
 
-/*Extra small devices*/
-@media (max-width: 575.98px) {
+/*Extra small devices1*/
+@media (min-width: 401px) and (max-width: 575.98px) {
+
+    div .sa_separator .sa_lines:after, .sa_lines:before
+    {
+        width: 145px;
+    }
+    div .sa_separator .sa_circle
+    {
+        width: 14px;
+        height: 14px;
+    }
+    div .sa_separator .sa_lines:before
+    {
+        right: 12px;
+    }
+    div .sa_separator .sa_lines:after 
+    {
+        left: 12px;
+    }
 
     .sa_position_blog1 {
-        margin-left: 5px;
+        margin-left: 13px;
+    }
+
+    div.sa_images_top > div img.sa_top_img {
+        height: 300px;
+        width: 374px;
+    }
+
+    div.sa_images_top .blog_1 > div.sa_top_img_background {
+        padding-left: 22px;
+        margin-top: -3px;
+        margin-left: 0px;
+        color: white;
+        width: 374px;
+        height: 332px;
+        background-color: #161f32;
+        position: absolute;
+    }
+
+    div.sa_images_top div.sa_top_img_background.triangle-left:before {
+        border-left: 0px solid transparent;
+        border-right: 0px solid transparent;
+        border-bottom: 0px solid #161f32;
+    }
+
+    div.sa_images_top div.sa_top_img_background.triangle-up:before {
+        content: '';
+        display: block;
+        width: 0px;
+        height: 0px;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #161f32;
+        position: absolute;
+        top: -15px;
+        right: 286px;
+    }
+
+    div.sa_images_top div.sa_top_img_background > span.bottom_text {
+        width: 320px;
     }
 
     .sa_position_blog2 {
-        margin-left: -2px;
+        margin-top: 345px;
+        margin-left: 6px;
+        margin-bottom: 345px;
     }
 
     .blog_2 {
         margin-top: 30px;
     }
 
-    div.sa_top_img_background {
-        display: none;
+    div.sa_images_top .blog_2 > div.sa_top_img_background {
+        padding-left: 22px;
+        margin-top: -3px;
+        margin-left: 0px;
+        color: white;
+        width: 374px;
+        height: 332px;
+        background-color: #161f32;
+        position: absolute;
+    }
+
+    div.sa_images_top div.sa_top_img_background > span.bottom_text {
+        width: 320px;
     }
 
     div.blog_3 {
         display: none;
     }
 
+    div.sa_position_blog4 {
+        margin-left: 6px;
+    }
+
     div.sa_position_blog5 {
         margin-top: 350px;
-        margin-left: 5px;
+        margin-left: 12px;
+    }
+
+    div.sa_images_bottom div img.sa_bottom_img1 {
+        width: 375px;
+    }
+
+    div.sa_images_bottom .blog_5 > div.sa_bottom_img_background {
+        width: 375px;
     }
 
     div.sa_position_blog6 {
-        margin-left: 0;
+        margin-left: 8px;
+    }
+
+    div.sa_images_bottom div img.sa_bottom_img2 {
+        width: 375px;
+    }
+
+    div.sa_images_bottom .blog_6 > div.sa_bottom_img_background {
+        width: 375px;
     }
 
     form div.input-field.email{
         margin-bottom: 10px;
-    }    
+    }
+
+}
+
+/*Extra small devices2*/
+@media (max-width: 400px) {
+    div .sa_separator .sa_lines:after, .sa_lines:before
+    {
+        width: 145px;
+    }
+    div .sa_separator .sa_circle
+    {
+        width: 14px;
+        height: 14px;
+    }
+    div .sa_separator .sa_lines:before
+    {
+        right: 12px;
+    }
+    div .sa_separator .sa_lines:after 
+    {
+        left: 12px;
+    }
+
+    .sa_position_blog1 {
+        margin-left: 1px;
+    }
+
+    div.sa_images_top > div img.sa_top_img {
+        height: 300px;
+        width: 350px;
+    }
+
+    div.sa_images_top .blog_1 > div.sa_top_img_background {
+        padding-left: 22px;
+        margin-top: -3px;
+        margin-left: 0px;
+        color: white;
+        width: 350px;
+        height: 332px;
+        background-color: #161f32;
+        position: absolute;
+    }
+
+    div.sa_images_top div.sa_top_img_background.triangle-left:before {
+        border-left: 0px solid transparent;
+        border-right: 0px solid transparent;
+        border-bottom: 0px solid #161f32;
+    }
+
+    div.sa_images_top div.sa_top_img_background.triangle-up:before {
+        content: '';
+        display: block;
+        width: 0px;
+        height: 0px;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #161f32;
+        position: absolute;
+        top: -15px;
+        right: 286px;
+    }
+
+    div.sa_images_top div.sa_top_img_background > span.bottom_text {
+        width: 320px;
+    }
+
+    .sa_position_blog2 {
+        margin-top: 360px;
+        margin-left: -7px;
+        margin-bottom: 329px;
+    }
+
+    div.sa_images_top .blog_2 > div.sa_top_img_background {
+        padding-left: 22px;
+        margin-top: -3px;
+        margin-left: 0px;
+        color: white;
+        width: 350px;
+        height: 332px;
+        background-color: #161f32;
+        position: absolute;
+    }
+
+    div.blog_3 {
+        display: none;
+    }
+
+    div.sa_position_blog4 {
+        margin-left: -6px;
+    }
+
+    div.sa_images_middle div img.sa_mid_img_right {
+        width: 350px;
+    }
+
+    div.sa_images_middle .blog_4 > div.sa_mid_img_right_background {
+        width: 350px;
+    }
+
+    div.sa_images_middle div.sa_mid_img_right_background > span.bottom_text {
+        width: 300px;
+    }
+
+    div.sa_position_blog5 {
+        margin-top: 332px;
+        margin-left: 2px;
+    }
+
+    div.sa_images_bottom div img.sa_bottom_img1 {
+        width: 350px;
+    }
+
+    div.sa_images_bottom .blog_5 > div.sa_bottom_img_background {
+        width: 350px;
+    }
+
+    div.sa_position_blog6 {
+        margin-left: -2px;
+    }
+
+    div.sa_images_bottom div img.sa_bottom_img2 {
+        width: 350px;
+    }
+
+    div.sa_images_bottom .blog_6 > div.sa_bottom_img_background {
+        width: 350px;
+    }
+
+    form div.input-field.email{
+        margin-bottom: 10px;
+    }
 }
