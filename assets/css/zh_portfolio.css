@@ -2,16 +2,17 @@
 Content:
 
 1.PORTFOLIO-HEADER
-    -Portfolio-Menu
 
-2.PICTURE FRAMES
+2.PORTFOLIO-MENU
 
-3.EXPAND
+3.PICTURE FRAMES
+
+4.EXPAND
     -Expand-img
     -Exand-info
     -Expand-info-smaller device
        
-4.PORTFOLIO-FOOTER
+5.PORTFOLIO-FOOTER
 
 */
 
@@ -24,7 +25,7 @@ Content:
 /*1.PORTFOLIO-HEADER*/
 
 .zh_p_header {
-    padding: 68px 0;
+    padding-top: 68px;
 }
 
 .zh_p_header h2 {
@@ -115,11 +116,11 @@ Content:
     }
 }
 
-/* Portfolio-Menu*/
+/* 2.PORTFOLIO-MENU*/
 
 .zh_menu {
     max-width: 550px;
-    margin: 0 auto;
+    margin: 0px auto 69px auto;
 }
 
 .zh_menu ul li{
@@ -162,7 +163,7 @@ Content:
 }
 
 
-/*2.PICTURE FRAMES*/
+/*3.PICTURE FRAMES*/
 
 .zh_item {
     width: 268px;
@@ -193,7 +194,7 @@ Content:
 }
 
 
-/* 3.EXPAND*/
+/* 4.EXPAND*/
 
 .zh_expand_background {
     min-height: 470px;
@@ -375,7 +376,7 @@ Content:
 }
 
 
-/*4.PORTFOLIO-FOOTER*/
+/*5.PORTFOLIO-FOOTER*/
 
 .zh_exp_button {
     width: 56px;
