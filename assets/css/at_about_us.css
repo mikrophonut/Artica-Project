@@ -138,29 +138,43 @@ div[class^="at_photo_pic"] {
     background-color: #161f32;
 }
 
+div[class^="at_photo_pic"] {
+    width: 216px;
+    height: 216px;
+    border: 1px solid #fff;
+    border-radius: 108px;
+    background-color: #161f32;
+}
+
+div[class^="at_pic_title"] {
+     margin: 0px auto 20px auto; 
+}
 
 .at_photo_pic1 {
     background: url("../img/team/john_doe.svg")no-repeat, no-repeat;
     background-size: cover;
-    margin-left: 35px; 
+    margin: 0px auto 20px auto; 
+    cursor: pointer;
 }
 .at_photo_pic2 {
     background: url("../img/team/lorem_ipsum.svg")no-repeat, no-repeat;
     background-size: cover;
-     margin-left: 24px; 
+    margin: 0px auto 20px auto;
+    cursor: pointer;
 }
 
 .at_photo_pic3 {
     background: url("../img/team/lorem_doe.svg")no-repeat, no-repeat;
     background-size: cover;
-    margin-left: 27px;
+    margin: 0px auto 20px auto;
+    cursor: pointer;
 }
 
 .at_photo_pic4 {
     background: url("../img/team/john_ipsum.svg")no-repeat, no-repeat;
     background-size: cover;
-    margin-right: 0;
-    margin-left: 41px;
+    margin: 0px auto 20px auto;
+    cursor: pointer;
 }
 
 div[class^="at_pic"] {
@@ -183,16 +197,22 @@ div[class^="at_pic"] > p {
     margin-top: 10px;
 }
 
+
 .at_hiden1 {
     position: relative;
-    right: 5px;                                                                                                                                                                             
-    /*display: none;*/  
-}  
+    right: 5px;  
+    display: none;                                                                                                                                                                           
+}
 
-.at_hiden1 > a {
+.at_active {
+    display: block;
+}
+
+.at_hiden1 > span {
     margin-left: 99%;
     position: absolute;
     top: 25px;
+    cursor: pointer;
 } 
 
 .at_hiden1 > h3 {
