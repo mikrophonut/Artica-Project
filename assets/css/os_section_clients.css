@@ -14,7 +14,6 @@ div.clients_main_color
 {
     background-color: #151f31;
 }
-
 div.title_clients
 {
     font-size: 30px;
@@ -23,7 +22,6 @@ div.title_clients
     text-align: center;
     padding-top: 60px;
 }
-
 div .tx_slv 
 {
     font-size: 15px;
@@ -31,29 +29,21 @@ div .tx_slv
     font-weight: 400;
     margin-top: 20px;
 }
-
-
 /*Paragraf height*/
-
 div .os_param
 {
     line-height: 18px;
 }
-
-
 /*Icon*/
-div .icons
-{
+div .icons {
     margin-top:50px;
 }
-
 div .tx_slv ul.icons li
 {
     display: inline-block;
     margin:0 40px;
     text-align: center;
 }
-
 div .tx_slv ul.icons li img:hover 
 {
     background-color: #00c7fb;
