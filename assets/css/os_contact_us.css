@@ -7,17 +7,14 @@
 6-Screen width
 ****************************/
 
-
 /*Text*/
 
-div .tx_contact_title 
-{
+div .tx_contact_title {
     color:#fff;
     margin-top: 68px;
 }
 
-div .tx_conct
-{
+div .tx_conct {
     font-size: 20px;
     font-weight: 400;
     color:#fff;
@@ -25,8 +22,7 @@ div .tx_conct
     margin-top: 24px;
 }
 
-div .donec
-{
+div .donec {
     font-size: 15px;
     color:#fff;
     font-weight: 400;
@@ -37,23 +33,20 @@ div .donec
 
 /*Seperactor*/ 
 
-div .contact_seperactor
-{
+div .contact_seperactor {
     text-align: center;
     position: relative;
     left: -1;
     top: 42px;
 }
 
-div.contact_seperactor .c_line
-{
+div.contact_seperactor .c_line {
     margin-top: 23px;
     position: relative;
     display: inline;
 }
 
-div .contact_seperactor .c_line:after, .c_line:before
-{
+div .contact_seperactor .c_line:after, .c_line:before {
     content:'';
     width: 274px;
     height: 1px;
@@ -61,18 +54,15 @@ div .contact_seperactor .c_line:after, .c_line:before
     position: absolute;
 }
 
-div .contact_seperactor .c_line:after
-{
+div .contact_seperactor .c_line:after {
     left: 15px;
 }
 
-div .contact_seperactor .c_line:before
-{
+div .contact_seperactor .c_line:before {
     right: 15px;
 }
 
-div .contact_seperactor .c_circle
-{
+div .contact_seperactor .c_circle {
     width: 16px;
     height: 16px;
     border: 1px solid #fff;
@@ -89,28 +79,24 @@ div .contact_seperactor .c_circle
 
 /*Icon text*/
 
-div .os_icon
-{
+div .os_icon {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
     color: #fff;
 }
 
-div .os_icon h2 
-{
+div .os_icon h2 {
     margin-top: 25px;
 }
 
-div .os_icon h2 + p
-{
+div .os_icon h2 + p {
     margin-top: 18px;
     margin-bottom: 20px;
 }
 
 /*Forms*/
-form input.input-fielde
-{
+form input.input-fielde {
     max-width: 368px;
     height: 65px;
     width: 100%;
@@ -121,14 +107,12 @@ form input.input-fielde
     padding:0 24px;
 }
 
-form input.input-fielde::placeholder
-{
+form input.input-fielde::placeholder {
     font-style: italic;
     color: #fff;
 }
 
-form input.message-box
-{
+form input.message-box {
     max-width: 1167px;
     height: 211px;
     width: 100%;
@@ -140,22 +124,18 @@ form input.message-box
     color: #fff;
 }
 
-form input.message-box::placeholder
-{
+form input.message-box::placeholder {
     font-style: italic;
     color: #fff;
 }
 
 
 /*Submit*/
-
-div .submit
-{
+div .submit {
     text-align: center;
 }
 
-form input.submit-text
-{
+form input.submit-text {
     width: 235px;
     height: 67px;
     background-color: #fff;
@@ -163,16 +143,14 @@ form input.submit-text
     border:none;
 }
 
-form input.submit-text:hover
-{
+form input.submit-text:hover {
     background-color: #00c7fb;
     transition: 0.3s;
 }
 
 /*Screen width*/
 
-@media only screen and (max-width: 813px)
-{
+@media only screen and (max-width: 813px) {
     form input.input-fielde
     {
         max-width: 800px;
@@ -180,31 +158,25 @@ form input.submit-text:hover
 }
 
 /*Small device Vertical*/
-@media only screen and (max-width: 415px)
-{
+@media only screen and (max-width: 415px) {
     /*Seperactor*/
-    div .contact_seperactor .c_line:after, .c_line:before
-    {
+    div .contact_seperactor .c_line:after, .c_line:before {
         width: 145px;
     }
-    div .contact_seperactor .c_circle
-    {
+    div .contact_seperactor .c_circle {
         width: 14px;
         height: 14px;
     }
-    div .contact_seperactor .c_line:before
-    {
+    div .contact_seperactor .c_line:before {
         right: 12px;
     }
-    div .contact_seperactor .c_line:after 
-    {
+    div .contact_seperactor .c_line:after {
         left: 12px;
     }
 
     /*Forms*/
 
-    form input.input-fielde
-    {
+    form input.input-fielde{
         max-width: 380px;   
     }
 }
