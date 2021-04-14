@@ -1,177 +1,68 @@
-
-.clear {
-    display: block;
-    content: '';
-    clear: both;
-}
-
-    /*Stanislav*/
- /*Header&Section st_ services*/
-
-/*Text colors*/
-.st_color_logo {
-    color: #161f32;
-}
-
-.st_color_white {
-    color: #ffffff;
-}
-
-.st_darkb_text {
-    color: #3d506f;
-}
-
-.st_lightb_text {
-    color: #7f90a5;
-}
-
-/*Background colors*/
-.st_dark_blue {
-    background-color: #222c3f;
-}
-
-.st_light_blue {
-    background-color: #546279;
-}
-
-
-.st_shell {
-    max-width: 1170px;
-    margin: 0 auto;
-}
-
 .clear:after {
-    content: '';
     display: block;
+    content: '';
     clear: both;
 }
-
-.nopadding {
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-
-   /*Stanislava*/
-/*Common*/
-
-.zh_shell {
+.shell {
     max-width: 1170px;
     margin: 0 auto;
 }
-
+ #about_us, #skills {
+    font-family: 'latoregular';
+    font-weight: 400;
+}   
 .nopadding {
     padding: 0 !important;
     margin: 0 !important;
 }
-
 .nopadding_col {
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
-
-/*Colors*/
-
-.zh_h2_text_color {
-    color: #3d506f;
+    /*TEXT Colors*/
+.white_clr {
+    color: #fff;
 }
-
-.zh_desc_text_color {
+.lgrey_clr {
+    color: #c8cacf;
+}
+.grey_clr {
+    color: #90959F;
+}
+.blgrey_clr {
     color: #7f90a5;
 }
-
-.zh_background_color {
+.dgrey_clr {
+    color: #8a8f98;
+}
+.blue_clr {
+    color: #3d506f; 
+}
+.dblue_clr {
+    color: #161f32;
+}
+    /*BACKGROUNDS Colors*/
+.gwhite_bclr {
+    background-color: #fbfbfb;
+}
+.lblue_bclr {
+    background-color: #546279;
+}
+.blue_bclr {
     background-color: #151f31;
 }
-
-.zh_desc_backgr_color {
+.gblue_bclr {
+    background-color: #3d4f6f;
+}
+.denim_bclr{
     background-color: #3d506f;
 }
-
-
-        /*Svetoslav*/
-    /*Section at_ Skills*/
-
-section#at_skills {
-    font-family: 'latoregular';
-   }
-
-.at_skills_conteiner, .at_skills_footer {
-    max-width: 1170px;
-    left: 0;
-    right: 0;
-    margin: auto;
-}   
-
-
-/*Section at_About_us */
-
-section#at_about_us {
-    font-family: 'latoregular';
-   
+.denimdark_bclr {
+    background-color: #222c3f;
 }
-
-
-.at_about_us_conteiner {
-    max-width: 1170px;
-    left: 0;
-    right: 0;
-    margin: auto;
-   /* background-color: #C1721D;*/
-}   
-
-
-   /*Ali Said*/
-
-section#sa_blog {
-    font-family: 'latoregular';
-    min-height: 1810px;
+.dblue_bclr {
+    background-color: #161f32;;
 }
-
-.sa_buttons_container {
-    max-width: 1170px;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-
- /*Ali Osman*/
-section#clients {
-    margin-top: 20px;
-    font-family: 'latoregular';
-    min-height: 648px;
-}
-.clients_container
-{
-    max-width: 1270px;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-.clients_shell {
-    min-height: 327px;
-    background-color: #151f31;
-}
-.clients_shell_2 {
-    min-height: 320px;
-    background-color: #fff;
-}
-section#contact_us{
-    min-height: 945px;
-    background-color: #151f31;
-}
-.container_contact
-{
-    max-width: 1170px;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-.shell_contact {
-    font-family: 'latoregular';
-}
-footer
-{
-    min-height: 152px;
-    background-color: #161f32;
+.pink_bclr {
+    background-color: #f646df;
 }
