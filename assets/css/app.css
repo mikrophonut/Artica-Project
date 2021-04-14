@@ -10,19 +10,14 @@
 @import url('header-quote.css');
 @import url('main-separator.css');
 @import url('hamburger-menu.css');
-
-    /*Stanislava - Portfolio*/
-
+/*Stanislava - Portfolio*/
 @import url('zh_portfolio.css');
-
 /*Svetoslav - at_About_us + at_Skills*/
-@import url('at_about_us.css');
-@import url('at_section_skills.css');
-
-    /*Ali Said - sa_Blog*/
+@import url('about-us.css');
+@import url('skills.css');
+/*Ali Said - sa_Blog*/
 @import url('sa_section_blog.css');
-
-    /*Ali Osman section + footer*/
+/*Ali Osman section + footer*/
 @import url('os_section_clients.css');
 @import url('os_contact_us.css');
 @import url('os_footer.css');

@@ -1,0 +1,204 @@
+/*------------------------------------------
+    1.Skills - Title/text
+    2.Skills - Main element / Company /
+    3.Skills - Main element / Our skills /
+    4.Skills - Foother element
+    5.Devices - @MEDIA
+ ------------------------------------------*/
+    /*Skills structure - Title/text*/
+.skills-header > h2, p {
+    text-align: center;
+} 
+.skills-header > h2 {
+    font-size: 30px;
+    margin-top: 64px;
+} 
+.skills-header > h2 + p {
+    font-size: 15px;
+    margin-top: 19px;
+} 
+    /*Skills - Main element / Company /*/   
+.company > h3 {
+    font-size: 25px;
+    margin-top: 63px;
+}
+.company > p {
+    font-size: 15px;
+    text-align: left;
+    margin-top: 21px;
+}
+.company > span {
+    height: 51px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 37px;
+}
+.company > span a {
+    width: 171px;
+    height: 51px;
+    display: inline-block;
+    padding-top: 18px;
+    text-decoration: none;
+}
+.company > span:hover a {
+    background-color: #00c7fb;
+}
+    /*Skills - Main element / Our skills /*/
+.our-skills {
+    margin: 0 auto 0 15px;
+}
+.our-skills > h3 {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 64px 0 22px 6px;
+}
+.our-skills > div {
+    max-width: 523px;
+    height: 43px;
+    margin: 0 53px 7px 9px;
+    padding: 12px 15px;    
+}
+.our-skills > h3 + div {
+    margin-right: 77px;
+}
+.our-skills > h3 + div + div {
+    margin-right: 119px;
+}
+.our-skills > div:last-child {
+    margin-bottom: 68px;
+    margin-right: 88px;    
+}
+.our-skills > div:hover {
+    background-color: #00c7fb;
+}
+.our-skills > div a {
+    text-decoration: none;
+}
+    /*Skills - Foother element*/
+.skills-footer div[class^="col-xs-12"]:first-child > div {
+    background: url('../img/skills/customers.png') no-repeat;
+    padding-left: 17px;
+}
+.skills-footer div[class^="col-xs-12"]:first-child + div > div {
+    background: url('../img/skills/awards.png') no-repeat;
+    padding-left: 18px;
+    margin-left: 8px;
+}
+.skills-footer div[class^="col-xs-12"]:first-child + div + div > div {
+    background: url('../img/skills/projects.png') no-repeat;
+    margin-left: 15px;
+}
+.skills-footer div[class^="col-xs-12"]:last-child > div {
+    background: url('../img/skills/followers.png') no-repeat;
+    padding-left: 20px;
+    margin-left: 22px;
+}
+.skills-footer div[class^="col-xs-12"] > div {
+    width: 77px;
+    height: 74px;
+    margin: 72px 0 54px 0; 
+}
+.skills-footer div[class^="col-xs-12"] > div > h2 {
+    font-size: 40px;
+    margin-left: 67px;
+}
+.skills-footer div[class^="col-xs-12"] > div >  p {
+    font-size: 15px;
+    margin-left: 70px;
+}
+.skills-footer .row {
+    overflow: hidden;
+}
+    /*Devices - @MEDIA*/  
+@media only screen and (max-width: 1200px) {
+    .company, p {
+        text-align: center !important;
+    }
+    .our-skills {
+        margin: 0 auto 0 50px;
+    }
+    .our-skills h3 {
+        text-align: center;
+    } 
+    .our-skills div {
+        margin: 0 0 7px 270px;
+    }
+    .our-skills > h3 + div {
+        margin-right: 318px !important;
+    }
+    .our-skills > h3 + div + div {
+        margin-right: 359px !important;
+    }
+    .our-skills > h3 + div + div + div {
+        margin-right: 290px !important;
+    }
+    .our-skills > div:last-child {
+        margin-right: 340px !important; 
+    }
+}
+@media only screen and (max-width: 992px) {
+    .our-skills div {
+        margin: 0 0 7px 257px;
+    }
+    .our-skills > h3 + div {
+        margin-right: 160px !important;
+    }
+    .our-skills > h3 + div + div {
+        margin-right: 197px !important;
+    }
+    .our-skills > h3 + div + div + div {
+        margin-right: 140px !important;
+    }
+    .our-skills > div:last-child {
+        margin-right: 170px !important;    
+    }
+    .skills-footer div[class^="col-xs-12"] > div {
+        margin: 72px 0 54px 30% !important;
+    }
+}
+@media only screen and (max-width: 786px) {
+    .our-skills div {
+        margin: 0 0 7px 45px;
+    }
+    .our-skills > h3 + div {
+        margin-right: 155px !important;
+    }
+    .our-skills > h3 + div + div {
+        margin-right: 195px !important;
+    }
+    .our-skills > h3 + div + div + div {
+        margin-right: 130px !important;
+    }
+    .our-skills > div:last-child {
+        margin-right: 165px !important;    
+    }
+    .skills-footer div[class^="col-xs-12"] > div {
+        margin: 72px 0 54px 30% !important;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .our-skills > h3 + div {
+        margin-right: 55px !important;
+    }
+    .our-skills > h3 + div + div {
+        margin-right: 85px !important;
+    }
+    .our-skills > h3 + div + div + div {
+        margin-right: 40px !important;
+    }
+    .our-skills > div:last-child {
+        margin-right: 60px !important;    
+    }
+    .col-xs-12 {
+        width: 100% !important; 
+    }
+}
+@media only screen and (min-width: 768px) {
+    .col-sm-9 {
+        width: 50% !important;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .col-lg-3 {
+        width: 25% !important;
+}
