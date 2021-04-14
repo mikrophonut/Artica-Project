@@ -4,7 +4,7 @@
     3.ABOUT US - Hidden elements
     4.Devices - @MEDIA
  --------------------------------------*/
-    /* ABOUT US - Title text*/
+/* ABOUT US - Title text*/
 .about-us-main > h2 {
     font-size: 30px;
     font-weight: 400;
@@ -25,25 +25,17 @@
     text-align: center;
     margin-top: 69px;
 }
-    /*ABOUT US - Separator*/
+/*ABOUT US - Separator*/
 .white-separator {
     width: 100%;
-   /* text-align: center;
-    position: relative;*/
     left: 5px;
     top: 31px;
 }
 .white-separator .line {
     margin-top: 23px;
-    /*position: relative;
-    display: inline;*/
 }
 .lines:after, .lines:before {
-   /* content: '';
-    width: 274px;
-    height: 1px;*/
     background: #313a4c !important;
-    /*position: absolute;*/
 }
 .lines:after {
     left: 11px !important;
@@ -51,18 +43,10 @@
 .lines:before {
     right: 12px !important;
 }
-.white-separator .circle {
+ #about-us ~ div.white-separator.circle {
     height: 16px;
     width: 16px;
     border: 1px solid #fff;
-    border-radius: 8px;
-    display: inline-block;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
 }
 .about-us-main ~ p {
     font-size: 15px;
@@ -70,7 +54,7 @@
     text-align: center;
     margin-top: 69px;
 }
-    /*ABOUT US - Main / Pics elements*/
+/*ABOUT US - Main / Pics elements*/
 .about-us-team > .row {
     margin-top: 85px;
 }
@@ -120,7 +104,7 @@ div[class$="-info"] > p {
     text-align: right !important;
     margin-top: 10px;
 }
-    /*ABOUT US - Hidden elements*/
+/*ABOUT US - Hidden elements*/
 #hidden-inf {
     position: relative;
     right: 5px;  
@@ -168,19 +152,13 @@ div#hidden-inf.call-hidden {
     bottom: 16px;
     left: 120px;
 }
-    /*Devices - @MEDIA*/  
+/*Devices - @MEDIA*/  
 @media only screen and (max-width:  800px) {
-    .lines:after, .lines:before {
-        width: 145px;
-    }
-    div[class$="-info"] {
+        div[class$="-info"] {
         right: 220px;
     } 
 }
 @media only screen and (max-width:  600px) {
-    .lines:after, .lines:before {
-        width: 145px;
-    }
     div[class$="-info"] {
         right: 120px;
     } 
