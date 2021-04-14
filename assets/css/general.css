@@ -7,7 +7,7 @@
     max-width: 1170px;
     margin: 0 auto;
 }
- #about_us, #skills {
+ #about-us, #skills {
     font-family: 'latoregular';
     font-weight: 400;
 }   
@@ -20,49 +20,49 @@
     padding-right: 0px !important;
 }
     /*TEXT Colors*/
-.white_clr {
+.white-clr {
     color: #fff;
 }
-.lgrey_clr {
+.lgrey-clr {
     color: #c8cacf;
 }
-.grey_clr {
+.grey-clr {
     color: #90959F;
 }
-.blgrey_clr {
+.blgrey-clr {
     color: #7f90a5;
 }
-.dgrey_clr {
+.dgrey-clr {
     color: #8a8f98;
 }
-.blue_clr {
+.blue-clr {
     color: #3d506f; 
 }
-.dblue_clr {
+.dblue-clr {
     color: #161f32;
 }
     /*BACKGROUNDS Colors*/
-.gwhite_bclr {
+.gwhite-bclr {
     background-color: #fbfbfb;
 }
-.lblue_bclr {
+.lblue-bclr {
     background-color: #546279;
 }
-.blue_bclr {
+.blue-bclr {
     background-color: #151f31;
 }
-.gblue_bclr {
+.gblue-bclr {
     background-color: #3d4f6f;
 }
-.denim_bclr{
+.denim-bclr{
     background-color: #3d506f;
 }
-.denimdark_bclr {
+.denimdark-bclr {
     background-color: #222c3f;
 }
-.dblue_bclr {
+.dblue-bclr {
     background-color: #161f32;;
 }
-.pink_bclr {
+.pink-bclr {
     background-color: #f646df;
 }
