@@ -21,7 +21,6 @@ div .tx_conct {
     text-align: center;
     margin-top: 24px;
 }
-
 div .donec {
     font-size: 15px;
     color:#fff;
@@ -33,14 +32,13 @@ div .donec {
 
 /*Seperactor*/ 
 
-div .contact_seperactor {
+div .blue-separator {
     text-align: center;
     position: relative;
-    left: -1;
     top: 42px;
 }
 
-div.contact_seperactor .c_line {
+/*div.contact_seperactor .c_line {
     margin-top: 23px;
     position: relative;
     display: inline;
@@ -76,21 +74,21 @@ div .contact_seperactor .c_circle {
     display: inline-block;
 }
 
-
+*/
 /*Icon text*/
 
-div .os_icon {
+div .contact_icon {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
     color: #fff;
 }
 
-div .os_icon h2 {
+div .contact_icon h2 {
     margin-top: 25px;
 }
 
-div .os_icon h2 + p {
+div .contact_icon h2 + p {
     margin-top: 18px;
     margin-bottom: 20px;
 }
@@ -160,17 +158,17 @@ form input.submit-text:hover {
 /*Small device Vertical*/
 @media only screen and (max-width: 415px) {
     /*Seperactor*/
-    div .contact_seperactor .c_line:after, .c_line:before {
+    div .circle-blue .line-blue:after, .line-blue:before {
         width: 145px;
     }
-    div .contact_seperactor .c_circle {
+    div .circle-blue .circle-blue {
         width: 14px;
         height: 14px;
     }
-    div .contact_seperactor .c_line:before {
+    div .circle-blue .line-blue:before {
         right: 12px;
     }
-    div .contact_seperactor .c_line:after {
+    div .circle-blue .line-blue:after {
         left: 12px;
     }
 

@@ -1,8 +1,7 @@
 /*Footer*/
 
 /*Text*/
-div .arctica-end
-{
+footer h2 {
     font-family: 'molleregular';
     font-weight: 400;
     font-size: 37px;
@@ -11,8 +10,7 @@ div .arctica-end
     margin-top: 60px;
 }
 
-div .end
-{
+footer p {
     font-family: 'latoregular';
     font-size: 11px;
     color:#8a8f98;

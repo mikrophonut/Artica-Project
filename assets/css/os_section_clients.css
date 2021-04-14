@@ -1,67 +1,56 @@
 /***************************
 1-Text
 2-Paragraf height
-3-Text John
-4-Testimonial
-5-Seperator
-6-Screen width
+3-Icon
+4-Text John
+5-Testimonial
+6-Seperator
+7-Screen width
 ****************************/
 
 
 /*Text*/
 
-div.clients_main_color
-{
+div.clients_main_color {
     background-color: #151f31;
 }
-div.title_clients
-{
+div.title_clients {
     font-size: 30px;
     color:#fff;
     font-weight: 400;
     text-align: center;
     padding-top: 60px;
 }
-div .tx_slv 
-{
+div .clients_txt {
     font-size: 15px;
     color: #ffffff;
     font-weight: 400;
-    margin-top: 20px;
-}
+    margin-top: 20px;}
 /*Paragraf height*/
-div .os_param
-{
-    line-height: 18px;
+
+div .line_height {
+    line-height: 20px;
 }
 /*Icon*/
 div .icons {
     margin-top:50px;
 }
-div .tx_slv ul.icons li
-{
+div.clients_txt ul.icons li {
     display: inline-block;
     margin:0 40px;
     text-align: center;
 }
-div .tx_slv ul.icons li img:hover 
-{
+div .clients_txt ul.icons li img:hover {
     background-color: #00c7fb;
     cursor: pointer;
     transition: 0.3s;
-    color-overlay
 }
 
-div .tx_slv ul.icons li:first-child 
-{
+div .clients_txt ul.icons li:first-child {
     margin-left: 100px;
 }
-
-
 /*Text John*/
-
-div .jhn
-{
+div .jhn {
     font-size: 20px !important;
     color: #3d506f;
     text-align: center;
@@ -69,25 +58,21 @@ div .jhn
     margin-bottom: 65px;
 }
 
-
 /*Testimonial*/
 
-div .tx_testimonial
-{
+div .tx_testimonial {
     font-weight: 400;
     color: #3d506f;
 }
 
-div.testimonial 
-{
+div.testimonial {
     font-size: 30px;
     text-align: center;
     margin-top: 63px;
     text-transform:uppercase;
 }
 
-div.tx_testim p
-{
+div.tx_testim p {
     font-size: 15px;
     font-style: italic;
     color:#7f90a5;
@@ -96,95 +81,37 @@ div.tx_testim p
 }
 
 
-/*Seperator*/
+/*Seperator - postion*/
 
-div .os_seperator
-{
-    text-align: center;
-    position: relative;
-    left: -1;
-    top: 42px;
-}
-
-div .os_seperator .line
-{
-    margin-top: 23px;
-    position: relative;
-    display: inline;
-}
-
-div .os_seperator .line:after, .line:before
-{
-    content:'';
-    width: 274px;
-    height: 1px;
-    background-color: #7f90a5;
-    position: absolute;
-}
-
-div .os_seperator .line:after
-{
-    left: 15px;
-}
-
-div .os_seperator .line:before
-{
-    right: 15px;
-}
-
-div .os_seperator .circle
-{
-    width: 15px;
-    height: 15px;
-    border: 1px solid #7f90a5;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0; 
-    margin:auto;
-    border-radius: 8px;
-    position: absolute;
-    display: inline-block;
+div.clients_shell_2 .white-separator {
+    top: 40px;
 }
 
 /*Screen width*/
 
 /*Desktop*/
-@media only screen and (max-width: 1170px)
-{
+@media only screen and (max-width: 1170px) {
 
 }
 
-
 /*Small device horizontal*/
 
-@media only screen and (max-width: 813px)
-{
-    div .icons
-    {
+@media only screen and (max-width: 813px) {
+    div .icons {
         margin-top:30px;
         text-align: center;
     }
 
-    div .tx_slv ul.icons li
-    {
+    div .clients_txt ul.icons li {
         margin: 0 30px;
         text-align: center;
         margin-bottom: 40px;
     }
-    div .tx_slv ul.icons li img:hover 
-    {
-        background-color: #00c7fb;
-        cursor: pointer;
-        transition: 0.3s;
-    }
-    div .tx_slv ul.icons li:first-child 
-    {
+    div .clients_txt ul.icons li:first-child {
         margin-right: 75px;
         margin-left: 50px;
     }
-    div .jhn
-    {
+    div .jhn {
         margin-bottom: 30px;
     }
 }
@@ -199,36 +126,36 @@ div .os_seperator .circle
         text-align: center;
     }
 
-    div .tx_slv ul.icons li
+    div .clients_txt ul.icons li
     {
         margin: 0 11px;
         text-align: center;
         margin-bottom: 20px;
     }
-    div .tx_slv ul.icons li img:hover 
+    div .clients_txt ul.icons li img:hover 
     {
         background-color: #00c7fb;
         cursor: pointer;
         transition: 0.3s;
     }
-    div .tx_slv ul.icons li:first-child
+    div .clients_txt ul.icons li:first-child
     {
-        margin:1px 40px 0px 5px;
+        margin:1px 40px 25px 5px;
     }
-    div .os_seperator .line:after, .line:before
+    div.clients_shell_2 .white-separator .line:after, .line:before
     {
         width:145px;
     }
-    div .os_seperator .circle
+    div.clients_shell_2 .white-separator .circle
     {
         width: 14px;
         height: 14px;
     }
-    div .os_seperator :before
+    div.clients_shell_2 .white-separator :before
     {
         right: 12px;
     }
-    div .os_seperator .c_line:after 
+    div.clients_shell_2 .white-separator .c_line:after 
     {
         left: 12px;
     }
