@@ -1,0 +1,30 @@
+/*Quote content*/
+.main-quote {
+	height: 241px;
+    background-color: #161f32;
+    margin-top: 70px;
+}
+
+.main-quote .col-lg-12   {
+    text-align: center;
+    padding-top: 71px;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: 'latolight';
+}
+
+.main-quote .col-lg-12 > p {
+    padding-top: 39px;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'latoregular';
+}
+/* For smaller device*/
+@media only screen and (max-width: 736px)
+{
+    .main-quote .col-lg-12 > p {
+        padding-top: 20px;
+    }
+}

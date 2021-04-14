@@ -1,0 +1,135 @@
+/*--------
+1.Separator white
+2.Separator blue
+----------*/
+
+/*Separator white*/
+.white-separator {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+.white-separator .line {
+    position: relative;
+    display: inline;
+}
+
+.white-separator .line:after, 
+.white-separator .line:before {
+    content:'';
+    width: 274px;
+    height: 1px;
+    background-color: #7f90a5;
+    position: absolute;
+}
+
+.white-separator .line:after {
+    left: 15px;
+}
+
+.white-separator .line:before {
+    right: 15px;
+}
+
+.white-separator .circle {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #7f90a5;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; 
+    margin:auto;
+    border-radius: 8px;
+    position: absolute;
+    display: inline-block;
+}
+/*Separator blue*/
+.blue-separator {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+.blue-separator .line-blue {
+    position: relative;
+    display: inline;
+}
+
+.blue-separator .line-blue:after, 
+.blue-separator .line-blue:before {
+    content:'';
+    width: 274px;
+    height: 1px;
+    background-color: #8796ab;
+    position: absolute;
+}
+
+.blue-separator .line-blue:after {
+    left: 15px;
+}
+
+.blue-separator .line-blue:before {
+    right: 15px;
+}
+
+.blue-separator .circle-blue {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #8796ab;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; 
+    margin:auto;
+    border-radius: 8px;
+    position: absolute;
+    display: inline-block;
+}
+
+/*White separator smaller devices*/
+
+@media only screen and (max-width: 736px)
+{
+    .white-separator .line:before {
+        width: 145px;
+    }
+
+    .white-separator .line:after {
+        width: 145px;
+    }
+
+    .white-separator .circle {
+        width: 14px;
+        height: 14px;
+    }
+    .white-separator:before {
+        right: 12px;
+    }
+    .white-separator .line:after {
+        left: 12px;
+    }
+}
+
+/*Smaller devices*/
+
+@media only screen and (max-width: 736px)
+{
+    .blue-separator .line-blue:before {
+        width: 145px;
+    }
+
+    .blue-separator .line-blue:after {
+        width: 145px;
+    }
+
+    .blue-separator .circle-blue {
+        width: 14px;
+        height: 14px;
+    }
+    .blue-separator:before {
+        right: 12px;
+    }
+    .blue-separator .line-blue:after {
+        left: 12px;
+    }
+}

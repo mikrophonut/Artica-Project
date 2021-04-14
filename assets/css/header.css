@@ -1,24 +1,18 @@
 /*------
 1.Main
 2.Navigaton
-
 ---------*/
 
 /*Main*/
-
 header {
     padding-top: 32px;
 }
 
-
 /*Logo*/
-
 header .logo {
     float: left;
 }
-
 /*Navigation*/
-
 header nav {
     float: right;
 }
@@ -56,7 +50,6 @@ header nav ul li a {
  }
 
 /*Smaller device*/
-
 @media only screen and (max-width: 736px)
 {
     header nav ul li  {

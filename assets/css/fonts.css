@@ -10,7 +10,6 @@
          url('../fonts/molle/molle-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 /*All style text Lato*/
@@ -20,11 +19,7 @@
          url('../fonts/lato/lato-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'latoblack_italic';
@@ -32,11 +27,7 @@
          url('../fonts/lato/lato-blackitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'latobold';
@@ -44,11 +35,7 @@
          url('../fonts/lato/lato-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'latobold_italic';
@@ -56,11 +43,7 @@
          url('../fonts/lato/lato-bolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'latoitalic';
@@ -68,11 +51,7 @@
          url('../fonts/lato/lato-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'latolight';
@@ -80,11 +59,7 @@
          url('../fonts/lato/lato-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'latolight_italic';
@@ -92,23 +67,14 @@
          url('../fonts/lato/lato-lightitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
-
 @font-face {
     font-family: 'latoregular';
     src: url('../fonts/lato/lato-regular-webfont.woff2') format('woff2'),
          url('../fonts/lato/lato-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'latohairline';
@@ -116,11 +82,7 @@
          url('../fonts/lato/lato-thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'latohairline_italic';
@@ -128,5 +90,4 @@
          url('../fonts/lato/lato-thinitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }

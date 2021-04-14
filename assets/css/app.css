@@ -5,11 +5,11 @@
 
 /*Stanislav header + section*/
 @import url('header.css');
-@import url('st_info.css');
-@import url('st_services.css');
-@import url('st_quote.css');
-@import url('st_separator.css');
-@import url('st_menu.css');
+@import url('landing-info.css');
+@import url('header-services.css');
+@import url('header-quote.css');
+@import url('main-separator.css');
+@import url('hamburger-menu.css');
 
     /*Stanislava - Portfolio*/
 
