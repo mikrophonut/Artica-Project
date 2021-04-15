@@ -1,0 +1,68 @@
+/*
+1.Title
+2.Separator
+3.Gallery menu
+*/
+
+/*Title*/
+section.blog div.title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section.blog div.title > h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 67px;
+    /*margin-bottom: 24px;*/
+}
+
+section.blog div.title > h2 + h3 {
+    font-size: 20px;
+    margin-top: 24px;
+}
+
+section.blog div.title > p {
+    margin-top: 65px;
+    line-height: 17px;
+    text-transform: none;
+    font-size: 15px;
+    text-align: center; 
+}
+
+section.blog div.blue-separator {
+    left: -1px;
+    top:23px;
+}
+
+ /*Gallery menu*/
+section.blog ul.buttons {
+    text-align: center;
+}
+
+section.blog ul.buttons li {
+    display: inline-block;
+}
+
+section.blog ul.buttons li > a {
+    text-decoration: none;
+}
+
+section.blog ul.buttons:first-child li > div {
+    background-color: #00c7fb;
+}
+
+section.blog ul.buttons li > a > div:hover {
+    background-color: #00c7fb;
+    transition: 0.4s;
+}
+
+section.blog ul.buttons li div {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 69px;
+    padding: 10px 21px;
+    margin-left: 20px;
+    margin-bottom: 57px;
+    box-sizing: border-box;
+ }

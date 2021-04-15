@@ -1,0 +1,72 @@
+/*
+1.Subscribe form
+2.Media screen
+*/
+
+/*Subscribe form*/
+div.blog-newsletter h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+div.blog-newsletter p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 26px;
+}
+
+.blog-newsletter form {
+    margin-top: 50px;
+    margin-left: -4px;
+    text-align: center;
+}
+
+.blog-newsletter form div.input-field {
+    display: inline-block;
+    max-width: 172px;
+    width: 100%;
+}
+
+.blog-newsletter form div.input-field:first-child {
+    max-width: 580px;
+    width: 100%;
+    margin-right: 18px;
+    padding: 0 24px;
+}
+
+.blog-newsletter form div.input-field input {
+    height: 66px;
+    border: none;
+    display: block;
+    width: 100%;
+    outline: none;
+    color: #fff;
+}
+
+.blog-newsletter form div.input-field:last-child {
+    margin-bottom: 67px;
+}
+
+.blog-newsletter form div.input-field input[type="email"] {
+    text-align: left;
+    font-size: 19px;
+}
+
+.blog-newsletter form div.input-field input[type="email"]::placeholder {
+    color: #fff;
+}
+
+.blog-newsletter form div.input-field input[type="submit"] {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media (min-width: 300px) {
+    form div.input-field.email {
+        margin-bottom: 10px;
+    }
+}
