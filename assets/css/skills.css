@@ -49,7 +49,6 @@
 }
 .our-skills > h3 {
     font-size: 25px;
-    font-weight: 400;
     margin: 64px 0 22px 6px;
 }
 .our-skills > div {
@@ -135,6 +134,9 @@
     .our-skills > div:last-child {
         margin-right: 340px !important; 
     }
+    .skills-footer div[class^="col-xs-12"] > div {
+        margin: 72px 0 54px 30% !important;
+    }
 }
 @media only screen and (max-width: 992px) {
     .our-skills div {
@@ -153,7 +155,7 @@
         margin-right: 170px !important;    
     }
     .skills-footer div[class^="col-xs-12"] > div {
-        margin: 72px 0 54px 30% !important;
+        margin: 72px 0 54px 60% !important;
     }
 }
 @media only screen and (max-width: 786px) {
@@ -173,7 +175,7 @@
         margin-right: 165px !important;    
     }
     .skills-footer div[class^="col-xs-12"] > div {
-        margin: 72px 0 54px 30% !important;
+        margin: 72px 0 54px 40% !important;
     }
 }
 @media only screen and (max-width: 450px) {
@@ -189,16 +191,18 @@
     .our-skills > div:last-child {
         margin-right: 60px !important;    
     }
-    .col-xs-12 {
+    #skills > .col-xs-12 {
         width: 100% !important; 
     }
 }
 @media only screen and (min-width: 768px) {
-    .col-sm-9 {
+    #skills > .col-sm-9 {
         width: 50% !important;
     }
 }
 @media only screen and (min-width: 992px) {
-    .col-lg-3 {
+    #skills > .col-lg-3 {
         width: 25% !important;
+    }
+    
 }

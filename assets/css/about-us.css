@@ -7,21 +7,18 @@
 /* ABOUT US - Title text*/
 .about-us-main > h2 {
     font-size: 30px;
-    font-weight: 400;
     text-align: center;
     margin-top: 64px;
     padding-top: 8px;
 }
 .about-us-main > h3 {
     font-size: 20px;
-    font-weight: 400;
     text-align: center;
     margin-top: 19px;
     padding-top: 2px;
 }
 .about-us-main ~ p {
     font-size: 15px;
-    font-weight: 400;
     text-align: center;
     margin-top: 69px;
 }
@@ -50,7 +47,6 @@
 }
 .about-us-main ~ p {
     font-size: 15px;
-    font-weight: 400;
     text-align: center;
     margin-top: 69px;
 }
@@ -73,9 +69,6 @@ div[class^="-info"] {
 }
 .jd-pic {
     background: url("../img/team/john_doe.svg") no-repeat;
-    position: relative;
-    left: 1px;
-    right: 1px;
 }
 .li-pic {
     background: url("../img/team/lorem_ipsum.svg") no-repeat;
@@ -104,7 +97,7 @@ div[class$="-info"] > p {
     text-align: right !important;
     margin-top: 10px;
 }
-/*ABOUT US - Hidden elements*/
+/*ABOUT US - Hidden element*/
 #hidden-inf {
     position: relative;
     right: 5px;  
