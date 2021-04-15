@@ -1,0 +1,131 @@
+/***************************
+1-Size
+2-Text
+3-Icon
+4-Text John
+5-Testimonial
+6-Separator - postion
+7-Screen width
+****************************/
+/*Size*/
+section#clients {
+    min-height: 648px;
+}
+div.clients_container {
+    max-width: 1270px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+div.clients_shell {
+    min-height: 327px;
+}
+div.clients_shell_2 {
+    min-height: 320px;
+}
+
+/*Text*/
+section .clients_txt{
+    font-family: 'latoregular';
+    font-weight: 400;
+}
+div.title_clients {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 60px;
+}
+div.clients_txt {
+    font-size: 15px;
+    margin-top: 20px;
+}
+div .clients_txt > p{
+    line-height: 20px;
+}
+
+/*Icon*/
+div .icons {
+    margin-top:60px;
+}
+div.clients_txt ul.icons li {
+    display: inline-block;
+    margin:0 35px;
+    text-align: center;
+}
+div .clients_txt ul.icons li img:hover {
+    background-color: #00c7fb;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div .clients_txt ul.icons li:first-child {
+    margin-left: 100px;
+}
+
+/*Text John*/
+div .jhn {
+    font-size: 20px !important;
+    text-align: center;
+    margin-top: 87px;
+    margin-bottom: 65px;
+}
+
+/*Testimonial*/
+div.testimonial {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 63px;
+    text-transform:uppercase;
+}
+div.tx_testim > p {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 35px;
+    line-height: 20px;
+}
+
+/*Separator - postion*/
+div.clients_shell_2 .white-separator {
+    top: 40px;
+}
+
+/*Screen width*/
+
+/*Small device horizontal*/
+
+@media only screen and (max-width: 813px) {
+    div .icons {
+        margin-top:30px;
+        text-align: center;
+    }
+    div .clients_txt ul.icons li {
+        margin: 0 30px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    div .clients_txt ul.icons li:first-child {
+        margin-right: 75px;
+        margin-left: 50px;
+    }
+    div .jhn {
+        margin-bottom: 30px;
+    }
+}
+
+
+/*Small device Veritical*/
+@media only screen and (max-width: 415px)
+{
+    div .icons {
+        margin-top:30px;
+        text-align: center;
+    }
+
+    div .clients_txt ul.icons li {
+        margin: 0 11px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    div .clients_txt ul.icons li:first-child {
+        margin:0px 40px 25px 5px;
+    }
+}

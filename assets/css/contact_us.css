@@ -1,0 +1,120 @@
+/***************************
+1-Size
+2-Text
+3-Separator-position
+4-Icons
+5-Forms
+6-Submit
+7-Screen width
+****************************/
+
+/*Size*/
+section#contact_us {
+    min-height: 945px;
+}
+div.container_contact {
+    max-width: 1170px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/*Text*/
+section.contact_txt {
+    font-family: 'latoregular';
+    font-weight: 400;
+}
+div .tx_conct {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 24px;
+}
+div .cont_txt {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 75px;
+}
+div .cont_txt > p{
+    line-height: 20px;
+}
+/*Separator-position*/ 
+ div.container_contact .blue-separator {
+    top: 30px;
+}
+/*Icons*/
+div .contact_icon {
+    font-size: 20px;
+    text-align: center;
+}
+div .contact_icon h2 {
+    margin-top: 25px;
+}
+div .contact_icon h2 + p {
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+/*Forms*/
+form input.input-shell {
+    max-width: 368px;
+    height: 65px;
+    width: 100%;
+    background-color: #151f31;
+    border: 1px solid #fff;
+    margin-top: 36px;
+    padding:0 24px;
+    font-size: 20px;
+    color:#fff;
+}
+form input.input-shell::placeholder {
+    font-style: italic;
+    color: #fff;
+    font-size: 15px;
+}
+form input.message-box {
+    max-width: 1167px;
+    height: 211px;
+    width: 100%;
+    background-color: #151f31;
+    border: 1px solid #fff;
+    margin-top: 30px;
+    padding: 0px 20px 156px 20px;
+    text-align: left;
+    font-size: 25px;
+    color: #fff;
+}
+form input.message-box::placeholder {
+    font-style: italic;
+    color: #fff;
+    font-size: 15px;
+}
+/*Submit*/
+div .submit {
+    text-align: center;
+}
+form input.submit-text {
+    width: 235px;
+    height: 67px;
+    background-color: #fff;
+    margin-top: 32px;
+    border:none;
+}
+form input.submit-text:hover {
+    background-color: #00c7fb;
+    transition: 0.3s;
+}
+
+/*Screen width*/
+
+@media only screen and (max-width: 813px) {
+    form input.input-shell {
+        max-width: 800px;
+    }
+}
+
+/*Small device Vertical*/
+@media only screen and (max-width: 415px) {
+    /*Forms*/
+
+    form input.input-shell {
+        max-width: 380px;   
+    }
+}

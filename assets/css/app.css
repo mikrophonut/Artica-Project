@@ -20,7 +20,7 @@
 @import url('blog-gallery.css');
 @import url('blog-newsletter.css');
 /*Ali Osman section + footer*/
-@import url('os_section_clients.css');
-@import url('os_contact_us.css');
-@import url('os_footer.css');
+@import url('section_clients.css');
+@import url('contact_us.css');
+@import url('footer.css');
 
