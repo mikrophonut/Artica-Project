@@ -23,8 +23,13 @@
 }
 /* For smaller device*/
 @media only screen and (max-width: 736px)
-{
-    .main-quote .col-lg-12 > p {
-        padding-top: 20px;
-    }
+{   .main-quote .col-lg-12   {
+    font-size: 20px;
+    } 
+}
+@media only screen and (max-width: 400px)
+{   .main-quote .col-lg-12   {
+    font-size: 15px;
+    } 
+   
 }

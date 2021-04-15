@@ -13,13 +13,13 @@
     text-align: center;
 }
 /*Header content*/
-/*.col-lg-12 > h2 {
+.col-lg-12 > h6 {
     padding-top: 30px;
     font-size: 30px;
     color: #3d506f;
     font-weight: 400;
     font-family: 'latobold';
-}*/
+}
 /*Text content*/
  .text-main {
     padding-top: 24px;
@@ -68,4 +68,11 @@
     height: 106px;
     border-radius: 53px;
     background-color: #3d506f;
+}
+/*Smaller device*/
+@media only screen and (max-width: 400px)
+{
+   .col-lg-12 > h6 {
+    font-size: 25px;
+    }
 }
