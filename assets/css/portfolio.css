@@ -1,0 +1,316 @@
+/*
+1.Portfolio header
+2.Portfolio menu
+3.Portfolio Gallery
+4.Gallery Preview
+    -gallery preview image
+    -gallery preview info
+    -Expand-info-smaller device      
+5.Porfolio footer
+*/
+
+#portfolio { font-family: 'latoregular'; }
+
+#portfolio a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*1.Portfolio header*/
+
+div.portfolio-header {
+    padding-top: 64px;
+    text-align: center;
+    font-weight: 400;
+}
+
+div.portfolio-header h2 {
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+div.portfolio-header h3 {
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+div.portfolio-header p {
+    font-size: 15px;
+    margin-bottom: 63px;
+    margin-top: 59px;
+}
+
+/* 2.Portfolio menu*/
+
+.portfolio-menu {
+    max-width: 550px;
+    margin: 0 auto 69px auto;
+    display: table;
+}
+
+.portfolio-menu ul li {
+    float: left;
+    display: table;
+    background-color: #3d506f;
+    height: 35px;
+    margin-right: 20px;
+    padding: 0 21px;
+}
+
+.portfolio-menu ul li:last-child { margin-right: 0; }
+.portfolio-menu ul li:hover { background-color: #00c7fb; }
+
+.portfolio-menu ul li a {
+    display: table-cell;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/*3.Portfolio Gallery*/
+
+div.gallery-img-holder > div:first-child {
+    width: 268px;
+    height: 200px;
+    background-color: #151f31;
+    text-align: center;
+    opacity: 0.8;
+    margin: 0 auto 20px auto;
+}
+
+div.gallery-img-holder.gallery-img-holder-active > div:first-child { opacity: 1; }
+div.gallery-img-holder > div:first-child:hover { opacity: 1; }
+
+div.gallery-img-holder > div > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* 4.Gallery Preview*/
+
+#gallery-preview {
+    min-height: 470px;
+    margin: 0 0 24px 0;
+    color: #fff;
+    display: none;
+}
+
+.gallery-img-preview::before {
+    content: url(../img/icons/arrow-up.svg);
+    position: absolute;
+    left: 122px;
+    bottom: 443px;
+}
+
+/*gallery preview image*/
+
+.gallery-img-preview {
+    background: url("../img/portfolio-gallery/cabin.jpg");
+    background-size: cover;
+    position: relative;
+    height: 421px;
+    max-width: 570px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+/*gallery preview info*/
+
+.gallery-info-preview {
+    position: relative;
+    max-width: 570px;
+    margin-left: 18px;
+}
+
+.gallery-info-preview #close-icon {
+    position: absolute;
+    bottom: 358px;
+    right: 1px;
+}
+
+.gallery-info-preview #close-icon:hover {
+    cursor: pointer;
+    text-shadow: 0 0 3px #fff;
+}
+
+.gallery-info-preview h3 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.gallery-info-preview p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.gallery-info-preview > span {
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px
+}
+
+.gallery-info-preview > span > i { margin-right: 10px; }
+
+.gallery-view-btn {
+    height: 51px;
+    width: 171px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin-top: 23px;
+    margin-bottom: 50px;
+    border: 1px solid #fff;
+}
+
+.gallery-view-btn:hover {
+    cursor: pointer;
+    background-color: #00c7fb;
+}
+
+/*Expand-info-smaller device*/
+
+.gallery-preview-small {
+    background-color: #151f31;
+    min-height: 400px;
+    color: #fff;
+    text-align: center;
+    display: none;
+    position: relative;
+}
+
+.gallery-preview-small h3 {
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.gallery-preview-small p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+.gallery-preview-small > span { display: block; }
+.gallery-preview-small > span > i { margin-right: 10px; }
+
+/*5.Portfolio footer*/
+div.portfolio-footer {
+    text-align: center;
+    font-weight: 400;
+}
+
+div.portfolio-footer h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+div.portfolio-footer p {
+    font-size: 15px;
+    margin-bottom: 65px;
+}
+
+.portfolio-btn-more {
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    cursor: pointer;
+    position: relative;
+    margin: 10px auto 60px auto;
+}
+
+.portfolio-btn-more:hover {
+    cursor: pointer;
+    background-color: #00c7fb;
+}
+
+.portfolio-btn-more::before {
+    content: url(../img/icons/expand-circle-icon.svg);
+    position: absolute;
+    top: 17px;
+    right: 18px;
+    bottom: 17px;
+    left: 18px;
+}
+
+.portfolio-btn-purchase {
+    height: 51px;
+    width: 171px;
+    font-size: 15px;
+    color: #fff;
+    padding: 20px 0 20px 0;
+    margin: 0 auto 66px auto;
+    box-sizing: border-box;
+}
+
+.portfolio-btn-purchase:hover {
+    cursor: pointer;
+    background-color: #00c7fb;
+}
+
+/*Medium and small devices*/
+@media only screen and (max-width: 992px) {
+    .portfolio-menu ul li {
+        margin: 0 auto 10px auto;
+        float: none;
+    }
+
+    .portfolio-menu ul li:last-child { margin-right: auto; }
+}
+
+/*Custom for medium and small devices*/
+@media only screen and (max-width: 1199px) {
+    .gallery-preview-small {
+        margin: 0 auto 15px auto;
+        display: none;
+    }
+
+    div.gallery-img-holder.gallery-img-holder-active .gallery-preview-small { display: block; }
+    div.gallery-img-holder.gallery-img-holder-active > div { opacity: 1; }
+    div.gallery-img-holder.gallery-img-holder-active > div:first-child:hover { opacity: 0.8; }
+
+    .small-view-btn {
+        height: 51px;
+        width: 150px;
+        font-weight: 400;
+        font-size: 15px;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0 20px 0;
+        margin: 10px auto 10px auto;
+        border: 1px solid #fff;
+    }
+
+    .small-view-btn:hover {
+        cursor: pointer;
+        background-color: #00c7fb;
+    }
+
+    .gallery-preview-small::before {
+        content: url(../img/icons/arrow-up.svg);
+        position: absolute;
+        right: 18px;
+        top: -15px;
+        left: 18px;
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1200px) {
+    .portfolio-row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    #gallery-preview.gallery-preview-active { display: block; }
+}

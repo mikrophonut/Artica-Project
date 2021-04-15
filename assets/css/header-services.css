@@ -13,13 +13,13 @@
     text-align: center;
 }
 /*Header content*/
-.col-lg-12 > h2 {
+/*.col-lg-12 > h2 {
     padding-top: 30px;
     font-size: 30px;
     color: #3d506f;
     font-weight: 400;
     font-family: 'latobold';
-}
+}*/
 /*Text content*/
  .text-main {
     padding-top: 24px;
