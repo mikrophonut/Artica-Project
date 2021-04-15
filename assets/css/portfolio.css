@@ -79,7 +79,6 @@ div.gallery-img-holder > div:first-child {
 }
 
 div.gallery-img-holder.gallery-img-holder-active > div:first-child { opacity: 1; }
-div.gallery-img-holder > div:first-child:hover { opacity: 1; }
 
 div.gallery-img-holder > div > img {
     object-fit: cover;
@@ -277,7 +276,6 @@ div.portfolio-footer p {
 
     div.gallery-img-holder.gallery-img-holder-active .gallery-preview-small { display: block; }
     div.gallery-img-holder.gallery-img-holder-active > div { opacity: 1; }
-    div.gallery-img-holder.gallery-img-holder-active > div:first-child:hover { opacity: 0.8; }
 
     .small-view-btn {
         height: 51px;
