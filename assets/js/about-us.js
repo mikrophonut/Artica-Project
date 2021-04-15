@@ -8,23 +8,16 @@ var picJdElement = document.getElementsByClassName(aboutUsPicJd);
 var previewElement = document.getElementById(aboutUsPreview);
 var previewCloseBtnElement = document.getElementById(aboutUsPreviewCloseBtn);
 
-
 //Function
-
-for (var i = 0; i < picJdElement.length; i++) {
-    picJdElement[i].addEventListener("click", function () {
-        previewElement.classList.toggle("call-hidden");
-    });
+function callInfoSection() {
+    previewElement.classList.toggle("call-hidden");
+}
+function hideInfoSection() {
+    previewElement.classList.remove("call-hidden"); 
 }
 
-previewCloseBtnElement.addEventListener("click", function () {
-  	previewElement.classList.remove("call-hidden");	
- });
-
-
-
-
-
-
-
-
+// Events
+for (var i = 0; i < picJdElement.length; i++) {
+    picJdElement[i].addEventListener("click", callInfoSection);
+};
+previewCloseBtnElement.addEventListener("click",hideInfoSection);
